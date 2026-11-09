@@ -19,6 +19,11 @@ Two findings emerged from validating the capture against the ground truth:
 
 
 
+
+![Labelled sample sliced from /var/log/auth.log](images/cp0-lab-sample-authlog.png)
+![Ground truth for the four replayed SSH series](images/cp0-ground-truth.png)
+![Root logging as a real account, not an invalid user](images/cp0-root-nuance.png)
+
 ## Checkpoint 1 — Auth-log parser
 
 The parser (`authmon/auth_parser.py`) turns raw auth.log lines into a single
@@ -37,6 +42,9 @@ Validated against the labelled sample: 23 events (13 failed, 6 invalid-user,
 sudo/systemd session lines). This exactly matches the ground truth.
 
 
+
+![Parser output: one record per SSH connection](images/cp1-parser-records.png)
+
 ## Checkpoint 2 — Edge-case tests
 
 Six edge-case tests (`tests/test_auth_parser_edges.py`) lock the parser down
@@ -46,6 +54,9 @@ an empty file, and duplicate decisive lines sharing one sshd pid. The last
 test enforces the "one connection = one event" dedupe invariant, so burst
 thresholds are never inflated by repeated lines. All six pass.
 
+
+![Six edge-case tests passing](images/cp2-edge-case-tests.png)
+
 ## Checkpoint 3 — Summaries
 
 `authmon/summarize.py` produces a one-glance picture of parsed events: totals,
@@ -53,6 +64,9 @@ outcome counts (accepted/failed/invalid-user), first/last seen timestamps,
 top source IPs and top usernames. Against the labelled sample it reports
 23 events (13 failed, 6 invalid-user, 4 accepted) from 127.0.0.1, dominated by
 the labuser account — matching the ground truth.
+
+
+![Summary of the labelled sample](images/cp3-summary-output.png)
 
 ## Checkpoint 4 — Detection rules
 
@@ -69,6 +83,9 @@ windowed detector correctly collapses the attacker's entire hammering sequence
 into one flag. Failures are counted only from the parser's unique per-pid events,
 so thresholds are never inflated by duplicate log lines.
 
+
+![All three detectors firing on 127.0.0.1](images/cp4-detector-output.png)
+
 ## Checkpoint 5 — Command-line interface
 
 `authmon/cli.py` plus `__main__.py` turn the pipeline into one runnable command:
@@ -81,6 +98,10 @@ a live /var/log/auth.log on the monitored server (placement-agnostic).
 6 invalid-user, 85 rejected) plus all three detected strategies, and a clean
 error path (`error: cannot read '...'`) with exit code 2 and no traceback.
 
+
+
+![Full CLI report](images/cp5-cli-report.png)
+![Clean error path with exit code 2](images/cp5-cli-error-path.png)
 
 ## Checkpoint 6 — Live attack validation
 
@@ -134,3 +155,7 @@ Note on the hydra screenshot: it records a repeat run of the same 500-entry
 dictionary at 11:26-11:33, after the captured window, which also found no valid
 password. It is included as evidence of the tooling and its rate, not as
 evidence of a cracked credential.
+![Live attack window sliced from auth.log](images/cp6-authlog-head.png)
+![Hydra 500-entry dictionary run: 0 valid passwords](images/cp6-hydra-run.png)
+![Detectors firing on the live attack](images/cp6-live-detector-report.png)
+
