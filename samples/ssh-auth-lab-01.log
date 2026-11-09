@@ -1,0 +1,108 @@
+Nov  2 14:38:46 web01 sudo: pam_unix(sudo:session): session closed for user root
+Nov  2 14:38:46 web01 sudo: northstar : TTY=pts/0 ; PWD=/tmp ; USER=root ; COMMAND=/usr/bin/bash /tmp/ssh-lab-simulation.sh
+Nov  2 14:38:46 web01 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by northstar(uid=1000)
+Nov  2 14:38:46 web01 sshd[1519]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=127.0.0.1  user=labuser
+Nov  2 14:38:49 web01 sshd[1519]: Failed password for labuser from 127.0.0.1 port 36148 ssh2
+Nov  2 14:38:49 web01 sshd[1519]: Connection closed by authenticating user labuser 127.0.0.1 port 36148 [preauth]
+Nov  2 14:38:49 web01 sshd[1524]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=127.0.0.1  user=labuser
+Nov  2 14:38:51 web01 sshd[1524]: Failed password for labuser from 127.0.0.1 port 36164 ssh2
+Nov  2 14:38:52 web01 sshd[1524]: Connection closed by authenticating user labuser 127.0.0.1 port 36164 [preauth]
+Nov  2 14:38:52 web01 sshd[1529]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=127.0.0.1  user=labuser
+Nov  2 14:38:54 web01 sshd[1529]: Failed password for labuser from 127.0.0.1 port 36170 ssh2
+Nov  2 14:38:55 web01 sshd[1529]: Connection closed by authenticating user labuser 127.0.0.1 port 36170 [preauth]
+Nov  2 14:38:55 web01 sshd[1534]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=127.0.0.1  user=labuser
+Nov  2 14:38:57 web01 sshd[1534]: Failed password for labuser from 127.0.0.1 port 36174 ssh2
+Nov  2 14:38:58 web01 sshd[1534]: Connection closed by authenticating user labuser 127.0.0.1 port 36174 [preauth]
+Nov  2 14:38:58 web01 sshd[1539]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=127.0.0.1  user=labuser
+Nov  2 14:39:00 web01 sshd[1539]: Failed password for labuser from 127.0.0.1 port 35734 ssh2
+Nov  2 14:39:01 web01 sshd[1539]: Connection closed by authenticating user labuser 127.0.0.1 port 35734 [preauth]
+Nov  2 14:39:01 web01 sshd[1544]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=127.0.0.1  user=labuser
+Nov  2 14:39:03 web01 sshd[1544]: Failed password for labuser from 127.0.0.1 port 35746 ssh2
+Nov  2 14:39:04 web01 sshd[1544]: Connection closed by authenticating user labuser 127.0.0.1 port 35746 [preauth]
+Nov  2 14:39:04 web01 sshd[1549]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=127.0.0.1  user=labuser
+Nov  2 14:39:06 web01 sshd[1549]: Failed password for labuser from 127.0.0.1 port 35760 ssh2
+Nov  2 14:39:06 web01 sshd[1549]: Connection closed by authenticating user labuser 127.0.0.1 port 35760 [preauth]
+Nov  2 14:39:07 web01 sshd[1554]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=127.0.0.1  user=labuser
+Nov  2 14:39:09 web01 sshd[1554]: Failed password for labuser from 127.0.0.1 port 46894 ssh2
+Nov  2 14:39:09 web01 sshd[1554]: Connection closed by authenticating user labuser 127.0.0.1 port 46894 [preauth]
+Nov  2 14:39:10 web01 sshd[1559]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=127.0.0.1  user=root
+Nov  2 14:39:12 web01 sshd[1559]: Failed password for root from 127.0.0.1 port 46910 ssh2
+Nov  2 14:39:13 web01 sshd[1559]: Connection closed by authenticating user root 127.0.0.1 port 46910 [preauth]
+Nov  2 14:39:14 web01 sshd[1564]: Invalid user admin from 127.0.0.1 port 46912
+Nov  2 14:39:14 web01 sshd[1564]: pam_unix(sshd:auth): check pass; user unknown
+Nov  2 14:39:14 web01 sshd[1564]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=127.0.0.1 
+Nov  2 14:39:16 web01 sshd[1564]: Failed password for invalid user admin from 127.0.0.1 port 46912 ssh2
+Nov  2 14:39:17 web01 sshd[1564]: Connection closed by invalid user admin 127.0.0.1 port 46912 [preauth]
+Nov  2 14:39:17 web01 sshd[1569]: Invalid user service from 127.0.0.1 port 58014
+Nov  2 14:39:17 web01 sshd[1569]: pam_unix(sshd:auth): check pass; user unknown
+Nov  2 14:39:17 web01 sshd[1569]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=127.0.0.1 
+Nov  2 14:39:20 web01 sshd[1569]: Failed password for invalid user service from 127.0.0.1 port 58014 ssh2
+Nov  2 14:39:20 web01 sshd[1569]: Connection closed by invalid user service 127.0.0.1 port 58014 [preauth]
+Nov  2 14:39:20 web01 sshd[1574]: Invalid user appuser from 127.0.0.1 port 58020
+Nov  2 14:39:20 web01 sshd[1574]: pam_unix(sshd:auth): check pass; user unknown
+Nov  2 14:39:20 web01 sshd[1574]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=127.0.0.1 
+Nov  2 14:39:22 web01 sshd[1574]: Failed password for invalid user appuser from 127.0.0.1 port 58020 ssh2
+Nov  2 14:39:22 web01 sshd[1574]: Connection closed by invalid user appuser 127.0.0.1 port 58020 [preauth]
+Nov  2 14:39:22 web01 sshd[1579]: Invalid user temp from 127.0.0.1 port 58028
+Nov  2 14:39:22 web01 sshd[1579]: pam_unix(sshd:auth): check pass; user unknown
+Nov  2 14:39:22 web01 sshd[1579]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=127.0.0.1 
+Nov  2 14:39:24 web01 sshd[1579]: Failed password for invalid user temp from 127.0.0.1 port 58028 ssh2
+Nov  2 14:39:25 web01 sshd[1579]: Connection closed by invalid user temp 127.0.0.1 port 58028 [preauth]
+Nov  2 14:39:25 web01 sshd[1584]: Invalid user nobody_bt from 127.0.0.1 port 58032
+Nov  2 14:39:25 web01 sshd[1584]: pam_unix(sshd:auth): check pass; user unknown
+Nov  2 14:39:25 web01 sshd[1584]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=127.0.0.1 
+Nov  2 14:39:27 web01 sshd[1584]: Failed password for invalid user nobody_bt from 127.0.0.1 port 58032 ssh2
+Nov  2 14:39:27 web01 sshd[1584]: Connection closed by invalid user nobody_bt 127.0.0.1 port 58032 [preauth]
+Nov  2 14:39:27 web01 sshd[1589]: Invalid user baker from 127.0.0.1 port 46414
+Nov  2 14:39:27 web01 sshd[1589]: pam_unix(sshd:auth): check pass; user unknown
+Nov  2 14:39:27 web01 sshd[1589]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=127.0.0.1 
+Nov  2 14:39:29 web01 sshd[1589]: Failed password for invalid user baker from 127.0.0.1 port 46414 ssh2
+Nov  2 14:39:29 web01 sshd[1589]: Connection closed by invalid user baker 127.0.0.1 port 46414 [preauth]
+Nov  2 14:39:29 web01 sshd[1595]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=127.0.0.1  user=labuser
+Nov  2 14:39:32 web01 sshd[1595]: Failed password for labuser from 127.0.0.1 port 46430 ssh2
+Nov  2 14:39:34 web01 sshd[1595]: Connection closed by authenticating user labuser 127.0.0.1 port 46430 [preauth]
+Nov  2 14:39:35 web01 sshd[1600]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=127.0.0.1  user=labuser
+Nov  2 14:39:37 web01 sshd[1600]: Failed password for labuser from 127.0.0.1 port 46446 ssh2
+Nov  2 14:39:37 web01 sshd[1600]: Connection closed by authenticating user labuser 127.0.0.1 port 46446 [preauth]
+Nov  2 14:39:38 web01 sshd[1605]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=127.0.0.1  user=labuser
+Nov  2 14:39:39 web01 sshd[1605]: Failed password for labuser from 127.0.0.1 port 54718 ssh2
+Nov  2 14:39:40 web01 sshd[1605]: Connection closed by authenticating user labuser 127.0.0.1 port 54718 [preauth]
+Nov  2 14:39:41 web01 sshd[1610]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=127.0.0.1  user=labuser
+Nov  2 14:39:43 web01 sshd[1610]: Failed password for labuser from 127.0.0.1 port 54728 ssh2
+Nov  2 14:39:43 web01 sshd[1610]: Connection closed by authenticating user labuser 127.0.0.1 port 54728 [preauth]
+Nov  2 14:39:44 web01 sshd[1616]: Accepted password for labuser from 127.0.0.1 port 54740 ssh2
+Nov  2 14:39:44 web01 sshd[1616]: pam_unix(sshd:session): session opened for user labuser(uid=1001) by (uid=0)
+Nov  2 14:39:44 web01 systemd-logind[935]: New session 3 of user labuser.
+Nov  2 14:39:44 web01 systemd: pam_unix(systemd-user:session): session opened for user labuser(uid=1001) by (uid=0)
+Nov  2 14:39:44 web01 sshd[1681]: Received disconnect from 127.0.0.1 port 54740:11: disconnected by user
+Nov  2 14:39:44 web01 sshd[1681]: Disconnected from user labuser 127.0.0.1 port 54740
+Nov  2 14:39:44 web01 sshd[1616]: pam_unix(sshd:session): session closed for user labuser
+Nov  2 14:39:44 web01 systemd-logind[935]: Session 3 logged out. Waiting for processes to exit.
+Nov  2 14:39:44 web01 systemd-logind[935]: Removed session 3.
+Nov  2 14:39:44 web01 sshd[1685]: Accepted password for labuser from 127.0.0.1 port 54752 ssh2
+Nov  2 14:39:44 web01 sshd[1685]: pam_unix(sshd:session): session opened for user labuser(uid=1001) by (uid=0)
+Nov  2 14:39:44 web01 systemd-logind[935]: New session 5 of user labuser.
+Nov  2 14:39:44 web01 sshd[1732]: Received disconnect from 127.0.0.1 port 54752:11: disconnected by user
+Nov  2 14:39:44 web01 sshd[1732]: Disconnected from user labuser 127.0.0.1 port 54752
+Nov  2 14:39:44 web01 sshd[1685]: pam_unix(sshd:session): session closed for user labuser
+Nov  2 14:39:44 web01 systemd-logind[935]: Session 5 logged out. Waiting for processes to exit.
+Nov  2 14:39:44 web01 systemd-logind[935]: Removed session 5.
+Nov  2 14:39:45 web01 sshd[1737]: Accepted password for labuser from 127.0.0.1 port 54754 ssh2
+Nov  2 14:39:45 web01 sshd[1737]: pam_unix(sshd:session): session opened for user labuser(uid=1001) by (uid=0)
+Nov  2 14:39:45 web01 systemd-logind[935]: New session 6 of user labuser.
+Nov  2 14:39:45 web01 sshd[1784]: Received disconnect from 127.0.0.1 port 54754:11: disconnected by user
+Nov  2 14:39:45 web01 sshd[1784]: Disconnected from user labuser 127.0.0.1 port 54754
+Nov  2 14:39:45 web01 sshd[1737]: pam_unix(sshd:session): session closed for user labuser
+Nov  2 14:39:45 web01 systemd-logind[935]: Session 6 logged out. Waiting for processes to exit.
+Nov  2 14:39:45 web01 systemd-logind[935]: Removed session 6.
+Nov  2 14:39:46 web01 sshd[1789]: Accepted password for labuser from 127.0.0.1 port 54770 ssh2
+Nov  2 14:39:46 web01 sshd[1789]: pam_unix(sshd:session): session opened for user labuser(uid=1001) by (uid=0)
+Nov  2 14:39:46 web01 systemd-logind[935]: New session 7 of user labuser.
+Nov  2 14:39:46 web01 sshd[1836]: Received disconnect from 127.0.0.1 port 54770:11: disconnected by user
+Nov  2 14:39:46 web01 sshd[1836]: Disconnected from user labuser 127.0.0.1 port 54770
+Nov  2 14:39:46 web01 sshd[1789]: pam_unix(sshd:session): session closed for user labuser
+Nov  2 14:39:46 web01 systemd-logind[935]: Session 7 logged out. Waiting for processes to exit.
+Nov  2 14:39:46 web01 systemd-logind[935]: Removed session 7.
+Nov  2 14:39:46 web01 sudo: pam_unix(sudo:session): session closed for user root
+Nov  2 14:39:46 web01 sudo: northstar : TTY=pts/0 ; PWD=/tmp ; USER=root ; COMMAND=/usr/bin/wc -l
+Nov  2 14:39:46 web01 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by northstar(uid=1000)

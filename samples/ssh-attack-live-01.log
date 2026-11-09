@@ -1,0 +1,1173 @@
+Nov  8 09:12:31 web01 sshd[1165]: Server listening on 0.0.0.0 port 22.
+Nov  8 09:12:31 web01 sshd[1165]: Server listening on :: port 22.
+Nov  8 09:14:34 web01 sshd[1183]: error: kex_exchange_identification: Connection closed by remote host
+Nov  8 09:14:34 web01 sshd[1183]: Connection closed by 10.10.10.50 port 38980
+Nov  8 09:17:01 web01 CRON[1187]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov  8 09:17:01 web01 CRON[1187]: pam_unix(cron:session): session closed for user root
+Nov  8 09:19:56 web01 login[946]: pam_unix(login:auth): check pass; user unknown
+Nov  8 09:19:56 web01 login[946]: pam_unix(login:auth): authentication failure; logname=LOGIN uid=0 euid=0 tty=/dev/tty1 ruser= rhost= 
+Nov  8 09:19:58 web01 login[946]: FAILED LOGIN (1) on '/dev/tty1' FOR 'UNKNOWN', Authentication failure
+Nov  8 09:20:09 web01 login[946]: pam_unix(login:session): session opened for user northstar(uid=1000) by LOGIN(uid=0)
+Nov  8 09:20:10 web01 systemd-logind[935]: New session 2 of user northstar.
+Nov  8 09:20:10 web01 systemd: pam_unix(systemd-user:session): session opened for user northstar(uid=1000) by (uid=0)
+Nov  8 09:23:03 web01 sudo: northstar : TTY=tty1 ; PWD=/home/northstar ; USER=root ; COMMAND=/usr/bin/wc -l
+Nov  8 09:23:03 web01 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by northstar(uid=1000)
+Nov  8 09:23:03 web01 sudo: pam_unix(sudo:session): session closed for user root
+Nov  8 09:23:41 web01 sshd[1307]: error: kex_exchange_identification: Connection closed by remote host
+Nov  8 09:23:41 web01 sshd[1307]: Connection closed by 10.10.10.50 port 57482
+Nov  8 09:25:00 web01 sshd[1310]: Invalid user admin from 10.10.10.50 port 54032
+Nov  8 09:25:00 web01 sshd[1310]: Received disconnect from 10.10.10.50 port 54032:11: Bye Bye [preauth]
+Nov  8 09:25:00 web01 sshd[1310]: Disconnected from invalid user admin 10.10.10.50 port 54032 [preauth]
+Nov  8 09:25:01 web01 sshd[1312]: Invalid user service from 10.10.10.50 port 54036
+Nov  8 09:25:01 web01 sshd[1312]: pam_unix(sshd:auth): check pass; user unknown
+Nov  8 09:25:01 web01 sshd[1315]: Invalid user appuser from 10.10.10.50 port 54054
+Nov  8 09:25:01 web01 sshd[1312]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=10.10.10.50 
+Nov  8 09:25:01 web01 sshd[1314]: Invalid user temp from 10.10.10.50 port 54042
+Nov  8 09:25:01 web01 sshd[1315]: pam_unix(sshd:auth): check pass; user unknown
+Nov  8 09:25:01 web01 sshd[1315]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=10.10.10.50 
+Nov  8 09:25:01 web01 sshd[1313]: Invalid user admin from 10.10.10.50 port 54040
+Nov  8 09:25:01 web01 sshd[1313]: pam_unix(sshd:auth): check pass; user unknown
+Nov  8 09:25:01 web01 sshd[1313]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=10.10.10.50 
+Nov  8 09:25:01 web01 sshd[1314]: pam_unix(sshd:auth): check pass; user unknown
+Nov  8 09:25:01 web01 sshd[1314]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=10.10.10.50 
+Nov  8 09:25:03 web01 sshd[1312]: Failed password for invalid user service from 10.10.10.50 port 54036 ssh2
+Nov  8 09:25:03 web01 sshd[1315]: Failed password for invalid user appuser from 10.10.10.50 port 54054 ssh2
+Nov  8 09:25:03 web01 sshd[1314]: Failed password for invalid user temp from 10.10.10.50 port 54042 ssh2
+Nov  8 09:25:03 web01 sshd[1313]: Failed password for invalid user admin from 10.10.10.50 port 54040 ssh2
+Nov  8 09:25:03 web01 sshd[1312]: Received disconnect from 10.10.10.50 port 54036:11: Bye Bye [preauth]
+Nov  8 09:25:03 web01 sshd[1312]: Disconnected from invalid user service 10.10.10.50 port 54036 [preauth]
+Nov  8 09:25:03 web01 sshd[1320]: Invalid user nobody_bt from 10.10.10.50 port 35458
+Nov  8 09:25:03 web01 sshd[1320]: pam_unix(sshd:auth): check pass; user unknown
+Nov  8 09:25:03 web01 sshd[1320]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=10.10.10.50 
+Nov  8 09:25:03 web01 sshd[1314]: Received disconnect from 10.10.10.50 port 54042:11: Bye Bye [preauth]
+Nov  8 09:25:03 web01 sshd[1314]: Disconnected from invalid user temp 10.10.10.50 port 54042 [preauth]
+Nov  8 09:25:03 web01 sshd[1322]: Invalid user baker from 10.10.10.50 port 35472
+Nov  8 09:25:03 web01 sshd[1322]: pam_unix(sshd:auth): check pass; user unknown
+Nov  8 09:25:03 web01 sshd[1322]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=10.10.10.50 
+Nov  8 09:25:04 web01 sshd[1313]: Connection closed by invalid user admin 10.10.10.50 port 54040 [preauth]
+Nov  8 09:25:04 web01 sshd[1315]: Connection closed by invalid user appuser 10.10.10.50 port 54054 [preauth]
+Nov  8 09:25:06 web01 sshd[1320]: Failed password for invalid user nobody_bt from 10.10.10.50 port 35458 ssh2
+Nov  8 09:25:06 web01 sshd[1322]: Failed password for invalid user baker from 10.10.10.50 port 35472 ssh2
+Nov  8 09:25:07 web01 sshd[1320]: Connection closed by invalid user nobody_bt 10.10.10.50 port 35458 [preauth]
+Nov  8 09:25:07 web01 sshd[1322]: Connection closed by invalid user baker 10.10.10.50 port 35472 [preauth]
+Nov  8 09:26:17 web01 sshd[1326]: Received disconnect from 10.10.10.50 port 40912:11: Bye Bye [preauth]
+Nov  8 09:26:17 web01 sshd[1326]: Disconnected from authenticating user northstar 10.10.10.50 port 40912 [preauth]
+Nov  8 09:26:17 web01 sshd[1328]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=10.10.10.50  user=northstar
+Nov  8 09:26:17 web01 sshd[1329]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=10.10.10.50  user=northstar
+Nov  8 09:26:17 web01 sshd[1331]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=10.10.10.50  user=northstar
+Nov  8 09:26:17 web01 sshd[1330]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=10.10.10.50  user=northstar
+Nov  8 09:26:19 web01 sshd[1328]: Failed password for northstar from 10.10.10.50 port 40922 ssh2
+Nov  8 09:26:19 web01 sshd[1329]: Failed password for northstar from 10.10.10.50 port 40928 ssh2
+Nov  8 09:26:19 web01 sshd[1330]: Failed password for northstar from 10.10.10.50 port 40934 ssh2
+Nov  8 09:26:19 web01 sshd[1331]: Failed password for northstar from 10.10.10.50 port 40948 ssh2
+Nov  8 09:26:21 web01 sshd[1328]: Failed password for northstar from 10.10.10.50 port 40922 ssh2
+Nov  8 09:26:21 web01 sshd[1329]: Failed password for northstar from 10.10.10.50 port 40928 ssh2
+Nov  8 09:26:21 web01 sshd[1330]: Failed password for northstar from 10.10.10.50 port 40934 ssh2
+Nov  8 09:26:21 web01 sshd[1331]: Failed password for northstar from 10.10.10.50 port 40948 ssh2
+Nov  8 09:26:23 web01 sshd[1328]: Failed password for northstar from 10.10.10.50 port 40922 ssh2
+Nov  8 09:26:23 web01 sshd[1329]: Failed password for northstar from 10.10.10.50 port 40928 ssh2
+Nov  8 09:26:23 web01 sshd[1331]: Failed password for northstar from 10.10.10.50 port 40948 ssh2
+Nov  8 09:26:23 web01 sshd[1330]: Failed password for northstar from 10.10.10.50 port 40934 ssh2
+Nov  8 09:26:25 web01 sshd[1328]: Failed password for northstar from 10.10.10.50 port 40922 ssh2
+Nov  8 09:26:25 web01 sshd[1329]: Failed password for northstar from 10.10.10.50 port 40928 ssh2
+Nov  8 09:26:25 web01 sshd[1331]: Failed password for northstar from 10.10.10.50 port 40948 ssh2
+Nov  8 09:26:25 web01 sshd[1330]: Failed password for northstar from 10.10.10.50 port 40934 ssh2
+Nov  8 09:26:28 web01 sshd[1328]: Failed password for northstar from 10.10.10.50 port 40922 ssh2
+Nov  8 09:26:28 web01 sshd[1329]: Failed password for northstar from 10.10.10.50 port 40928 ssh2
+Nov  8 09:26:28 web01 sshd[1331]: Failed password for northstar from 10.10.10.50 port 40948 ssh2
+Nov  8 09:26:28 web01 sshd[1330]: Failed password for northstar from 10.10.10.50 port 40934 ssh2
+Nov  8 09:26:30 web01 sshd[1328]: Failed password for northstar from 10.10.10.50 port 40922 ssh2
+Nov  8 09:26:30 web01 sshd[1329]: Failed password for northstar from 10.10.10.50 port 40928 ssh2
+Nov  8 09:26:30 web01 sshd[1331]: Failed password for northstar from 10.10.10.50 port 40948 ssh2
+Nov  8 09:26:30 web01 sshd[1330]: Failed password for northstar from 10.10.10.50 port 40934 ssh2
+Nov  8 09:26:32 web01 sshd[1328]: error: maximum authentication attempts exceeded for northstar from 10.10.10.50 port 40922 ssh2 [preauth]
+Nov  8 09:26:32 web01 sshd[1328]: Disconnecting authenticating user northstar 10.10.10.50 port 40922: Too many authentication failures [preauth]
+Nov  8 09:26:32 web01 sshd[1328]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=10.10.10.50  user=northstar
+Nov  8 09:26:32 web01 sshd[1328]: PAM service(sshd) ignoring max retries; 6 > 3
+Nov  8 09:26:32 web01 sshd[1329]: error: maximum authentication attempts exceeded for northstar from 10.10.10.50 port 40928 ssh2 [preauth]
+Nov  8 09:26:32 web01 sshd[1329]: Disconnecting authenticating user northstar 10.10.10.50 port 40928: Too many authentication failures [preauth]
+Nov  8 09:26:32 web01 sshd[1329]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=10.10.10.50  user=northstar
+Nov  8 09:26:32 web01 sshd[1329]: PAM service(sshd) ignoring max retries; 6 > 3
+Nov  8 09:26:32 web01 sshd[1331]: error: maximum authentication attempts exceeded for northstar from 10.10.10.50 port 40948 ssh2 [preauth]
+Nov  8 09:26:32 web01 sshd[1331]: Disconnecting authenticating user northstar 10.10.10.50 port 40948: Too many authentication failures [preauth]
+Nov  8 09:26:32 web01 sshd[1331]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=10.10.10.50  user=northstar
+Nov  8 09:26:32 web01 sshd[1331]: PAM service(sshd) ignoring max retries; 6 > 3
+Nov  8 09:26:32 web01 sshd[1330]: error: maximum authentication attempts exceeded for northstar from 10.10.10.50 port 40934 ssh2 [preauth]
+Nov  8 09:26:32 web01 sshd[1330]: Disconnecting authenticating user northstar 10.10.10.50 port 40934: Too many authentication failures [preauth]
+Nov  8 09:26:32 web01 sshd[1330]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=10.10.10.50  user=northstar
+Nov  8 09:26:32 web01 sshd[1330]: PAM service(sshd) ignoring max retries; 6 > 3
+Nov  8 09:26:32 web01 sshd[1337]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=10.10.10.50  user=northstar
+Nov  8 09:26:32 web01 sshd[1338]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=10.10.10.50  user=northstar
+Nov  8 09:26:32 web01 sshd[1340]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=10.10.10.50  user=northstar
+Nov  8 09:26:32 web01 sshd[1342]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=10.10.10.50  user=northstar
+Nov  8 09:26:33 web01 sshd[1337]: Failed password for northstar from 10.10.10.50 port 46412 ssh2
+Nov  8 09:26:33 web01 sshd[1338]: Failed password for northstar from 10.10.10.50 port 46424 ssh2
+Nov  8 09:26:33 web01 sshd[1340]: Failed password for northstar from 10.10.10.50 port 46440 ssh2
+Nov  8 09:26:33 web01 sshd[1342]: Failed password for northstar from 10.10.10.50 port 46448 ssh2
+Nov  8 09:26:36 web01 sshd[1337]: Failed password for northstar from 10.10.10.50 port 46412 ssh2
+Nov  8 09:26:36 web01 sshd[1338]: Failed password for northstar from 10.10.10.50 port 46424 ssh2
+Nov  8 09:26:36 web01 sshd[1340]: Failed password for northstar from 10.10.10.50 port 46440 ssh2
+Nov  8 09:26:36 web01 sshd[1342]: Failed password for northstar from 10.10.10.50 port 46448 ssh2
+Nov  8 09:26:40 web01 sshd[1337]: Failed password for northstar from 10.10.10.50 port 46412 ssh2
+Nov  8 09:26:40 web01 sshd[1338]: Failed password for northstar from 10.10.10.50 port 46424 ssh2
+Nov  8 09:26:40 web01 sshd[1340]: Failed password for northstar from 10.10.10.50 port 46440 ssh2
+Nov  8 09:26:40 web01 sshd[1342]: Failed password for northstar from 10.10.10.50 port 46448 ssh2
+Nov  8 09:26:42 web01 sshd[1337]: Failed password for northstar from 10.10.10.50 port 46412 ssh2
+Nov  8 09:26:42 web01 sshd[1338]: Failed password for northstar from 10.10.10.50 port 46424 ssh2
+Nov  8 09:26:42 web01 sshd[1340]: Failed password for northstar from 10.10.10.50 port 46440 ssh2
+Nov  8 09:26:42 web01 sshd[1342]: Failed password for northstar from 10.10.10.50 port 46448 ssh2
+Nov  8 09:26:46 web01 sshd[1337]: Failed password for northstar from 10.10.10.50 port 46412 ssh2
+Nov  8 09:26:46 web01 sshd[1338]: Failed password for northstar from 10.10.10.50 port 46424 ssh2
+Nov  8 09:26:46 web01 sshd[1340]: Failed password for northstar from 10.10.10.50 port 46440 ssh2
+Nov  8 09:26:46 web01 sshd[1342]: Failed password for northstar from 10.10.10.50 port 46448 ssh2
+Nov  8 09:26:48 web01 sshd[1337]: Failed password for northstar from 10.10.10.50 port 46412 ssh2
+Nov  8 09:26:49 web01 sshd[1338]: Failed password for northstar from 10.10.10.50 port 46424 ssh2
+Nov  8 09:26:49 web01 sshd[1337]: error: maximum authentication attempts exceeded for northstar from 10.10.10.50 port 46412 ssh2 [preauth]
+Nov  8 09:26:49 web01 sshd[1337]: Disconnecting authenticating user northstar 10.10.10.50 port 46412: Too many authentication failures [preauth]
+Nov  8 09:26:49 web01 sshd[1337]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=10.10.10.50  user=northstar
+Nov  8 09:26:49 web01 sshd[1337]: PAM service(sshd) ignoring max retries; 6 > 3
+Nov  8 09:26:49 web01 sshd[1340]: Failed password for northstar from 10.10.10.50 port 46440 ssh2
+Nov  8 09:26:49 web01 sshd[1338]: error: maximum authentication attempts exceeded for northstar from 10.10.10.50 port 46424 ssh2 [preauth]
+Nov  8 09:26:49 web01 sshd[1338]: Disconnecting authenticating user northstar 10.10.10.50 port 46424: Too many authentication failures [preauth]
+Nov  8 09:26:49 web01 sshd[1338]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=10.10.10.50  user=northstar
+Nov  8 09:26:49 web01 sshd[1338]: PAM service(sshd) ignoring max retries; 6 > 3
+Nov  8 09:26:49 web01 sshd[1342]: Failed password for northstar from 10.10.10.50 port 46448 ssh2
+Nov  8 09:26:49 web01 sshd[1340]: error: maximum authentication attempts exceeded for northstar from 10.10.10.50 port 46440 ssh2 [preauth]
+Nov  8 09:26:49 web01 sshd[1340]: Disconnecting authenticating user northstar 10.10.10.50 port 46440: Too many authentication failures [preauth]
+Nov  8 09:26:49 web01 sshd[1340]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=10.10.10.50  user=northstar
+Nov  8 09:26:49 web01 sshd[1340]: PAM service(sshd) ignoring max retries; 6 > 3
+Nov  8 09:26:49 web01 sshd[1342]: error: maximum authentication attempts exceeded for northstar from 10.10.10.50 port 46448 ssh2 [preauth]
+Nov  8 09:26:49 web01 sshd[1342]: Disconnecting authenticating user northstar 10.10.10.50 port 46448: Too many authentication failures [preauth]
+Nov  8 09:26:49 web01 sshd[1342]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=10.10.10.50  user=northstar
+Nov  8 09:26:49 web01 sshd[1342]: PAM service(sshd) ignoring max retries; 6 > 3
+Nov  8 09:26:49 web01 sshd[1345]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=10.10.10.50  user=northstar
+Nov  8 09:26:49 web01 sshd[1347]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=10.10.10.50  user=northstar
+Nov  8 09:26:49 web01 sshd[1349]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=10.10.10.50  user=northstar
+Nov  8 09:26:49 web01 sshd[1350]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=10.10.10.50  user=northstar
+Nov  8 09:26:50 web01 sshd[1345]: Failed password for northstar from 10.10.10.50 port 43100 ssh2
+Nov  8 09:26:50 web01 sshd[1347]: Failed password for northstar from 10.10.10.50 port 43114 ssh2
+Nov  8 09:26:50 web01 sshd[1349]: Failed password for northstar from 10.10.10.50 port 43122 ssh2
+Nov  8 09:26:50 web01 sshd[1350]: Failed password for northstar from 10.10.10.50 port 43136 ssh2
+Nov  8 09:26:53 web01 sshd[1345]: Failed password for northstar from 10.10.10.50 port 43100 ssh2
+Nov  8 09:26:53 web01 sshd[1347]: Failed password for northstar from 10.10.10.50 port 43114 ssh2
+Nov  8 09:26:53 web01 sshd[1349]: Failed password for northstar from 10.10.10.50 port 43122 ssh2
+Nov  8 09:26:53 web01 sshd[1350]: Failed password for northstar from 10.10.10.50 port 43136 ssh2
+Nov  8 09:26:56 web01 sshd[1345]: Failed password for northstar from 10.10.10.50 port 43100 ssh2
+Nov  8 09:26:56 web01 sshd[1347]: Failed password for northstar from 10.10.10.50 port 43114 ssh2
+Nov  8 09:26:56 web01 sshd[1349]: Failed password for northstar from 10.10.10.50 port 43122 ssh2
+Nov  8 09:26:56 web01 sshd[1350]: Failed password for northstar from 10.10.10.50 port 43136 ssh2
+Nov  8 09:26:59 web01 sshd[1345]: Failed password for northstar from 10.10.10.50 port 43100 ssh2
+Nov  8 09:26:59 web01 sshd[1347]: Failed password for northstar from 10.10.10.50 port 43114 ssh2
+Nov  8 09:26:59 web01 sshd[1349]: Failed password for northstar from 10.10.10.50 port 43122 ssh2
+Nov  8 09:26:59 web01 sshd[1350]: Failed password for northstar from 10.10.10.50 port 43136 ssh2
+Nov  8 09:27:01 web01 sshd[1345]: Failed password for northstar from 10.10.10.50 port 43100 ssh2
+Nov  8 09:27:01 web01 sshd[1347]: Failed password for northstar from 10.10.10.50 port 43114 ssh2
+Nov  8 09:27:01 web01 sshd[1349]: Failed password for northstar from 10.10.10.50 port 43122 ssh2
+Nov  8 09:27:02 web01 sshd[1350]: Failed password for northstar from 10.10.10.50 port 43136 ssh2
+Nov  8 09:27:05 web01 sshd[1345]: Failed password for northstar from 10.10.10.50 port 43100 ssh2
+Nov  8 09:27:05 web01 sshd[1347]: Failed password for northstar from 10.10.10.50 port 43114 ssh2
+Nov  8 09:27:05 web01 sshd[1345]: error: maximum authentication attempts exceeded for northstar from 10.10.10.50 port 43100 ssh2 [preauth]
+Nov  8 09:27:05 web01 sshd[1345]: Disconnecting authenticating user northstar 10.10.10.50 port 43100: Too many authentication failures [preauth]
+Nov  8 09:27:05 web01 sshd[1345]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=10.10.10.50  user=northstar
+Nov  8 09:27:05 web01 sshd[1345]: PAM service(sshd) ignoring max retries; 6 > 3
+Nov  8 09:27:05 web01 sshd[1349]: Failed password for northstar from 10.10.10.50 port 43122 ssh2
+Nov  8 09:27:05 web01 sshd[1347]: error: maximum authentication attempts exceeded for northstar from 10.10.10.50 port 43114 ssh2 [preauth]
+Nov  8 09:27:05 web01 sshd[1347]: Disconnecting authenticating user northstar 10.10.10.50 port 43114: Too many authentication failures [preauth]
+Nov  8 09:27:05 web01 sshd[1347]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=10.10.10.50  user=northstar
+Nov  8 09:27:05 web01 sshd[1347]: PAM service(sshd) ignoring max retries; 6 > 3
+Nov  8 09:27:05 web01 sshd[1349]: error: maximum authentication attempts exceeded for northstar from 10.10.10.50 port 43122 ssh2 [preauth]
+Nov  8 09:27:05 web01 sshd[1349]: Disconnecting authenticating user northstar 10.10.10.50 port 43122: Too many authentication failures [preauth]
+Nov  8 09:27:05 web01 sshd[1349]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=10.10.10.50  user=northstar
+Nov  8 09:27:05 web01 sshd[1349]: PAM service(sshd) ignoring max retries; 6 > 3
+Nov  8 09:27:05 web01 sshd[1350]: Failed password for northstar from 10.10.10.50 port 43136 ssh2
+Nov  8 09:27:05 web01 sshd[1350]: error: maximum authentication attempts exceeded for northstar from 10.10.10.50 port 43136 ssh2 [preauth]
+Nov  8 09:27:05 web01 sshd[1350]: Disconnecting authenticating user northstar 10.10.10.50 port 43136: Too many authentication failures [preauth]
+Nov  8 09:27:05 web01 sshd[1350]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=10.10.10.50  user=northstar
+Nov  8 09:27:05 web01 sshd[1350]: PAM service(sshd) ignoring max retries; 6 > 3
+Nov  8 09:27:05 web01 sshd[1353]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=10.10.10.50  user=northstar
+Nov  8 09:27:05 web01 sshd[1355]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=10.10.10.50  user=northstar
+Nov  8 09:27:05 web01 sshd[1357]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=10.10.10.50  user=northstar
+Nov  8 09:27:05 web01 sshd[1359]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=10.10.10.50  user=northstar
+Nov  8 09:27:07 web01 sshd[1353]: Failed password for northstar from 10.10.10.50 port 41116 ssh2
+Nov  8 09:27:07 web01 sshd[1355]: Failed password for northstar from 10.10.10.50 port 41128 ssh2
+Nov  8 09:27:07 web01 sshd[1357]: Failed password for northstar from 10.10.10.50 port 41134 ssh2
+Nov  8 09:27:07 web01 sshd[1359]: Failed password for northstar from 10.10.10.50 port 41144 ssh2
+Nov  8 09:27:09 web01 sshd[1353]: Failed password for northstar from 10.10.10.50 port 41116 ssh2
+Nov  8 09:27:09 web01 sshd[1355]: Failed password for northstar from 10.10.10.50 port 41128 ssh2
+Nov  8 09:27:09 web01 sshd[1357]: Failed password for northstar from 10.10.10.50 port 41134 ssh2
+Nov  8 09:27:09 web01 sshd[1359]: Failed password for northstar from 10.10.10.50 port 41144 ssh2
+Nov  8 09:27:11 web01 sshd[1353]: Failed password for northstar from 10.10.10.50 port 41116 ssh2
+Nov  8 09:27:11 web01 sshd[1355]: Failed password for northstar from 10.10.10.50 port 41128 ssh2
+Nov  8 09:27:11 web01 sshd[1357]: Failed password for northstar from 10.10.10.50 port 41134 ssh2
+Nov  8 09:27:11 web01 sshd[1359]: Failed password for northstar from 10.10.10.50 port 41144 ssh2
+Nov  8 09:27:13 web01 sshd[1357]: Failed password for northstar from 10.10.10.50 port 41134 ssh2
+Nov  8 09:27:13 web01 sshd[1359]: Failed password for northstar from 10.10.10.50 port 41144 ssh2
+Nov  8 09:27:14 web01 sshd[1353]: Failed password for northstar from 10.10.10.50 port 41116 ssh2
+Nov  8 09:27:14 web01 sshd[1355]: Failed password for northstar from 10.10.10.50 port 41128 ssh2
+Nov  8 09:27:15 web01 sshd[1357]: Failed password for northstar from 10.10.10.50 port 41134 ssh2
+Nov  8 09:27:15 web01 sshd[1359]: Failed password for northstar from 10.10.10.50 port 41144 ssh2
+Nov  8 09:27:17 web01 sshd[1353]: Failed password for northstar from 10.10.10.50 port 41116 ssh2
+Nov  8 09:27:17 web01 sshd[1355]: Failed password for northstar from 10.10.10.50 port 41128 ssh2
+Nov  8 09:27:17 web01 sshd[1357]: Failed password for northstar from 10.10.10.50 port 41134 ssh2
+Nov  8 09:27:18 web01 sshd[1359]: Failed password for northstar from 10.10.10.50 port 41144 ssh2
+Nov  8 09:27:18 web01 sshd[1357]: error: maximum authentication attempts exceeded for northstar from 10.10.10.50 port 41134 ssh2 [preauth]
+Nov  8 09:27:18 web01 sshd[1357]: Disconnecting authenticating user northstar 10.10.10.50 port 41134: Too many authentication failures [preauth]
+Nov  8 09:27:18 web01 sshd[1357]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=10.10.10.50  user=northstar
+Nov  8 09:27:18 web01 sshd[1357]: PAM service(sshd) ignoring max retries; 6 > 3
+Nov  8 09:27:18 web01 sshd[1359]: error: maximum authentication attempts exceeded for northstar from 10.10.10.50 port 41144 ssh2 [preauth]
+Nov  8 09:27:18 web01 sshd[1359]: Disconnecting authenticating user northstar 10.10.10.50 port 41144: Too many authentication failures [preauth]
+Nov  8 09:27:18 web01 sshd[1359]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=10.10.10.50  user=northstar
+Nov  8 09:27:18 web01 sshd[1359]: PAM service(sshd) ignoring max retries; 6 > 3
+Nov  8 09:27:18 web01 sshd[1361]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=10.10.10.50  user=northstar
+Nov  8 09:27:18 web01 sshd[1363]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=10.10.10.50  user=northstar
+Nov  8 09:27:19 web01 sshd[1353]: Failed password for northstar from 10.10.10.50 port 41116 ssh2
+Nov  8 09:27:19 web01 sshd[1355]: Failed password for northstar from 10.10.10.50 port 41128 ssh2
+Nov  8 09:27:19 web01 sshd[1361]: Failed password for northstar from 10.10.10.50 port 35766 ssh2
+Nov  8 09:27:19 web01 sshd[1363]: Failed password for northstar from 10.10.10.50 port 35772 ssh2
+Nov  8 09:27:20 web01 sshd[1353]: error: maximum authentication attempts exceeded for northstar from 10.10.10.50 port 41116 ssh2 [preauth]
+Nov  8 09:27:20 web01 sshd[1353]: Disconnecting authenticating user northstar 10.10.10.50 port 41116: Too many authentication failures [preauth]
+Nov  8 09:27:20 web01 sshd[1353]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=10.10.10.50  user=northstar
+Nov  8 09:27:20 web01 sshd[1353]: PAM service(sshd) ignoring max retries; 6 > 3
+Nov  8 09:27:20 web01 sshd[1355]: error: maximum authentication attempts exceeded for northstar from 10.10.10.50 port 41128 ssh2 [preauth]
+Nov  8 09:27:20 web01 sshd[1355]: Disconnecting authenticating user northstar 10.10.10.50 port 41128: Too many authentication failures [preauth]
+Nov  8 09:27:20 web01 sshd[1355]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=10.10.10.50  user=northstar
+Nov  8 09:27:20 web01 sshd[1355]: PAM service(sshd) ignoring max retries; 6 > 3
+Nov  8 09:27:20 web01 sshd[1365]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=10.10.10.50  user=northstar
+Nov  8 09:27:20 web01 sshd[1367]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=10.10.10.50  user=northstar
+Nov  8 09:27:22 web01 sshd[1365]: Failed password for northstar from 10.10.10.50 port 35788 ssh2
+Nov  8 09:27:22 web01 sshd[1367]: Failed password for northstar from 10.10.10.50 port 35804 ssh2
+Nov  8 09:27:22 web01 sshd[1361]: Failed password for northstar from 10.10.10.50 port 35766 ssh2
+Nov  8 09:27:22 web01 sshd[1363]: Failed password for northstar from 10.10.10.50 port 35772 ssh2
+Nov  8 09:27:24 web01 sshd[1365]: Failed password for northstar from 10.10.10.50 port 35788 ssh2
+Nov  8 09:27:24 web01 sshd[1367]: Failed password for northstar from 10.10.10.50 port 35804 ssh2
+Nov  8 09:27:24 web01 sshd[1361]: Failed password for northstar from 10.10.10.50 port 35766 ssh2
+Nov  8 09:27:24 web01 sshd[1363]: Failed password for northstar from 10.10.10.50 port 35772 ssh2
+Nov  8 09:27:28 web01 sshd[1365]: Failed password for northstar from 10.10.10.50 port 35788 ssh2
+Nov  8 09:27:28 web01 sshd[1367]: Failed password for northstar from 10.10.10.50 port 35804 ssh2
+Nov  8 09:27:28 web01 sshd[1361]: Failed password for northstar from 10.10.10.50 port 35766 ssh2
+Nov  8 09:27:28 web01 sshd[1363]: Failed password for northstar from 10.10.10.50 port 35772 ssh2
+Nov  8 09:27:30 web01 sshd[1365]: Failed password for northstar from 10.10.10.50 port 35788 ssh2
+Nov  8 09:27:30 web01 sshd[1367]: Failed password for northstar from 10.10.10.50 port 35804 ssh2
+Nov  8 09:27:30 web01 sshd[1361]: Failed password for northstar from 10.10.10.50 port 35766 ssh2
+Nov  8 09:27:30 web01 sshd[1363]: Failed password for northstar from 10.10.10.50 port 35772 ssh2
+Nov  8 09:27:32 web01 sshd[1365]: Failed password for northstar from 10.10.10.50 port 35788 ssh2
+Nov  8 09:27:32 web01 sshd[1367]: Failed password for northstar from 10.10.10.50 port 35804 ssh2
+Nov  8 09:27:32 web01 sshd[1361]: Failed password for northstar from 10.10.10.50 port 35766 ssh2
+Nov  8 09:27:32 web01 sshd[1363]: Failed password for northstar from 10.10.10.50 port 35772 ssh2
+Nov  8 09:27:32 web01 sshd[1361]: error: maximum authentication attempts exceeded for northstar from 10.10.10.50 port 35766 ssh2 [preauth]
+Nov  8 09:27:32 web01 sshd[1361]: Disconnecting authenticating user northstar 10.10.10.50 port 35766: Too many authentication failures [preauth]
+Nov  8 09:27:32 web01 sshd[1361]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=10.10.10.50  user=northstar
+Nov  8 09:27:32 web01 sshd[1361]: PAM service(sshd) ignoring max retries; 6 > 3
+Nov  8 09:27:32 web01 sshd[1369]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=10.10.10.50  user=northstar
+Nov  8 09:27:32 web01 sshd[1363]: error: maximum authentication attempts exceeded for northstar from 10.10.10.50 port 35772 ssh2 [preauth]
+Nov  8 09:27:32 web01 sshd[1363]: Disconnecting authenticating user northstar 10.10.10.50 port 35772: Too many authentication failures [preauth]
+Nov  8 09:27:32 web01 sshd[1363]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=10.10.10.50  user=northstar
+Nov  8 09:27:32 web01 sshd[1363]: PAM service(sshd) ignoring max retries; 6 > 3
+Nov  8 09:27:33 web01 sshd[1371]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=10.10.10.50  user=northstar
+Nov  8 09:27:34 web01 sshd[1365]: Failed password for northstar from 10.10.10.50 port 35788 ssh2
+Nov  8 09:27:34 web01 sshd[1367]: Failed password for northstar from 10.10.10.50 port 35804 ssh2
+Nov  8 09:27:34 web01 sshd[1369]: Failed password for northstar from 10.10.10.50 port 60866 ssh2
+Nov  8 09:27:34 web01 sshd[1371]: Failed password for northstar from 10.10.10.50 port 60880 ssh2
+Nov  8 09:27:34 web01 sshd[1365]: error: maximum authentication attempts exceeded for northstar from 10.10.10.50 port 35788 ssh2 [preauth]
+Nov  8 09:27:34 web01 sshd[1365]: Disconnecting authenticating user northstar 10.10.10.50 port 35788: Too many authentication failures [preauth]
+Nov  8 09:27:34 web01 sshd[1365]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=10.10.10.50  user=northstar
+Nov  8 09:27:34 web01 sshd[1365]: PAM service(sshd) ignoring max retries; 6 > 3
+Nov  8 09:27:34 web01 sshd[1367]: error: maximum authentication attempts exceeded for northstar from 10.10.10.50 port 35804 ssh2 [preauth]
+Nov  8 09:27:34 web01 sshd[1367]: Disconnecting authenticating user northstar 10.10.10.50 port 35804: Too many authentication failures [preauth]
+Nov  8 09:27:34 web01 sshd[1367]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=10.10.10.50  user=northstar
+Nov  8 09:27:34 web01 sshd[1367]: PAM service(sshd) ignoring max retries; 6 > 3
+Nov  8 09:27:34 web01 sshd[1373]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=10.10.10.50  user=northstar
+Nov  8 09:27:34 web01 sshd[1374]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=10.10.10.50  user=northstar
+Nov  8 09:27:37 web01 sshd[1371]: Failed password for northstar from 10.10.10.50 port 60880 ssh2
+Nov  8 09:27:37 web01 sshd[1373]: Failed password for northstar from 10.10.10.50 port 60882 ssh2
+Nov  8 09:27:37 web01 sshd[1374]: Failed password for northstar from 10.10.10.50 port 60896 ssh2
+Nov  8 09:27:37 web01 sshd[1369]: Failed password for northstar from 10.10.10.50 port 60866 ssh2
+Nov  8 09:27:41 web01 sshd[1373]: Failed password for northstar from 10.10.10.50 port 60882 ssh2
+Nov  8 09:27:41 web01 sshd[1374]: Failed password for northstar from 10.10.10.50 port 60896 ssh2
+Nov  8 09:27:41 web01 sshd[1369]: Failed password for northstar from 10.10.10.50 port 60866 ssh2
+Nov  8 09:27:41 web01 sshd[1371]: Failed password for northstar from 10.10.10.50 port 60880 ssh2
+Nov  8 09:27:43 web01 sshd[1373]: Failed password for northstar from 10.10.10.50 port 60882 ssh2
+Nov  8 09:27:43 web01 sshd[1374]: Failed password for northstar from 10.10.10.50 port 60896 ssh2
+Nov  8 09:27:43 web01 sshd[1369]: Failed password for northstar from 10.10.10.50 port 60866 ssh2
+Nov  8 09:27:43 web01 sshd[1371]: Failed password for northstar from 10.10.10.50 port 60880 ssh2
+Nov  8 09:27:47 web01 sshd[1373]: Failed password for northstar from 10.10.10.50 port 60882 ssh2
+Nov  8 09:27:47 web01 sshd[1374]: Failed password for northstar from 10.10.10.50 port 60896 ssh2
+Nov  8 09:27:47 web01 sshd[1369]: Failed password for northstar from 10.10.10.50 port 60866 ssh2
+Nov  8 09:27:47 web01 sshd[1371]: Failed password for northstar from 10.10.10.50 port 60880 ssh2
+Nov  8 09:27:49 web01 sshd[1373]: Failed password for northstar from 10.10.10.50 port 60882 ssh2
+Nov  8 09:27:49 web01 sshd[1374]: Failed password for northstar from 10.10.10.50 port 60896 ssh2
+Nov  8 09:27:49 web01 sshd[1369]: Failed password for northstar from 10.10.10.50 port 60866 ssh2
+Nov  8 09:27:49 web01 sshd[1371]: Failed password for northstar from 10.10.10.50 port 60880 ssh2
+Nov  8 09:27:51 web01 sshd[1369]: error: maximum authentication attempts exceeded for northstar from 10.10.10.50 port 60866 ssh2 [preauth]
+Nov  8 09:27:51 web01 sshd[1369]: Disconnecting authenticating user northstar 10.10.10.50 port 60866: Too many authentication failures [preauth]
+Nov  8 09:27:51 web01 sshd[1369]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=10.10.10.50  user=northstar
+Nov  8 09:27:51 web01 sshd[1369]: PAM service(sshd) ignoring max retries; 6 > 3
+Nov  8 09:27:51 web01 sshd[1377]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=10.10.10.50  user=northstar
+Nov  8 09:27:51 web01 sshd[1371]: error: maximum authentication attempts exceeded for northstar from 10.10.10.50 port 60880 ssh2 [preauth]
+Nov  8 09:27:51 web01 sshd[1371]: Disconnecting authenticating user northstar 10.10.10.50 port 60880: Too many authentication failures [preauth]
+Nov  8 09:27:51 web01 sshd[1371]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=10.10.10.50  user=northstar
+Nov  8 09:27:51 web01 sshd[1371]: PAM service(sshd) ignoring max retries; 6 > 3
+Nov  8 09:27:51 web01 sshd[1379]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=10.10.10.50  user=northstar
+Nov  8 09:27:53 web01 sshd[1373]: Failed password for northstar from 10.10.10.50 port 60882 ssh2
+Nov  8 09:27:53 web01 sshd[1374]: Failed password for northstar from 10.10.10.50 port 60896 ssh2
+Nov  8 09:27:53 web01 sshd[1377]: Failed password for northstar from 10.10.10.50 port 51822 ssh2
+Nov  8 09:27:53 web01 sshd[1379]: Failed password for northstar from 10.10.10.50 port 51832 ssh2
+Nov  8 09:27:53 web01 sshd[1373]: error: maximum authentication attempts exceeded for northstar from 10.10.10.50 port 60882 ssh2 [preauth]
+Nov  8 09:27:53 web01 sshd[1373]: Disconnecting authenticating user northstar 10.10.10.50 port 60882: Too many authentication failures [preauth]
+Nov  8 09:27:53 web01 sshd[1373]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=10.10.10.50  user=northstar
+Nov  8 09:27:53 web01 sshd[1373]: PAM service(sshd) ignoring max retries; 6 > 3
+Nov  8 09:27:53 web01 sshd[1374]: error: maximum authentication attempts exceeded for northstar from 10.10.10.50 port 60896 ssh2 [preauth]
+Nov  8 09:27:53 web01 sshd[1374]: Disconnecting authenticating user northstar 10.10.10.50 port 60896: Too many authentication failures [preauth]
+Nov  8 09:27:53 web01 sshd[1374]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=10.10.10.50  user=northstar
+Nov  8 09:27:53 web01 sshd[1374]: PAM service(sshd) ignoring max retries; 6 > 3
+Nov  8 09:27:53 web01 sshd[1381]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=10.10.10.50  user=northstar
+Nov  8 09:27:53 web01 sshd[1383]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=10.10.10.50  user=northstar
+Nov  8 09:27:56 web01 sshd[1381]: Failed password for northstar from 10.10.10.50 port 51848 ssh2
+Nov  8 09:27:56 web01 sshd[1383]: Failed password for northstar from 10.10.10.50 port 51864 ssh2
+Nov  8 09:27:56 web01 sshd[1377]: Failed password for northstar from 10.10.10.50 port 51822 ssh2
+Nov  8 09:27:56 web01 sshd[1379]: Failed password for northstar from 10.10.10.50 port 51832 ssh2
+Nov  8 09:27:59 web01 sshd[1381]: Failed password for northstar from 10.10.10.50 port 51848 ssh2
+Nov  8 09:27:59 web01 sshd[1383]: Failed password for northstar from 10.10.10.50 port 51864 ssh2
+Nov  8 09:28:00 web01 sshd[1377]: Failed password for northstar from 10.10.10.50 port 51822 ssh2
+Nov  8 09:28:00 web01 sshd[1379]: Failed password for northstar from 10.10.10.50 port 51832 ssh2
+Nov  8 09:28:03 web01 sshd[1381]: Failed password for northstar from 10.10.10.50 port 51848 ssh2
+Nov  8 09:28:03 web01 sshd[1383]: Failed password for northstar from 10.10.10.50 port 51864 ssh2
+Nov  8 09:28:03 web01 sshd[1377]: Failed password for northstar from 10.10.10.50 port 51822 ssh2
+Nov  8 09:28:03 web01 sshd[1379]: Failed password for northstar from 10.10.10.50 port 51832 ssh2
+Nov  8 09:28:06 web01 sshd[1381]: Failed password for northstar from 10.10.10.50 port 51848 ssh2
+Nov  8 09:28:06 web01 sshd[1383]: Failed password for northstar from 10.10.10.50 port 51864 ssh2
+Nov  8 09:28:06 web01 sshd[1377]: Failed password for northstar from 10.10.10.50 port 51822 ssh2
+Nov  8 09:28:06 web01 sshd[1379]: Failed password for northstar from 10.10.10.50 port 51832 ssh2
+Nov  8 09:28:09 web01 sshd[1381]: Failed password for northstar from 10.10.10.50 port 51848 ssh2
+Nov  8 09:28:09 web01 sshd[1383]: Failed password for northstar from 10.10.10.50 port 51864 ssh2
+Nov  8 09:28:09 web01 sshd[1377]: Failed password for northstar from 10.10.10.50 port 51822 ssh2
+Nov  8 09:28:09 web01 sshd[1379]: Failed password for northstar from 10.10.10.50 port 51832 ssh2
+Nov  8 09:28:10 web01 sshd[1377]: error: maximum authentication attempts exceeded for northstar from 10.10.10.50 port 51822 ssh2 [preauth]
+Nov  8 09:28:10 web01 sshd[1377]: Disconnecting authenticating user northstar 10.10.10.50 port 51822: Too many authentication failures [preauth]
+Nov  8 09:28:10 web01 sshd[1377]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=10.10.10.50  user=northstar
+Nov  8 09:28:10 web01 sshd[1377]: PAM service(sshd) ignoring max retries; 6 > 3
+Nov  8 09:28:10 web01 sshd[1385]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=10.10.10.50  user=northstar
+Nov  8 09:28:10 web01 sshd[1379]: error: maximum authentication attempts exceeded for northstar from 10.10.10.50 port 51832 ssh2 [preauth]
+Nov  8 09:28:10 web01 sshd[1379]: Disconnecting authenticating user northstar 10.10.10.50 port 51832: Too many authentication failures [preauth]
+Nov  8 09:28:10 web01 sshd[1379]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=10.10.10.50  user=northstar
+Nov  8 09:28:10 web01 sshd[1379]: PAM service(sshd) ignoring max retries; 6 > 3
+Nov  8 09:28:10 web01 sshd[1387]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=10.10.10.50  user=northstar
+Nov  8 09:28:12 web01 sshd[1381]: Failed password for northstar from 10.10.10.50 port 51848 ssh2
+Nov  8 09:28:12 web01 sshd[1383]: Failed password for northstar from 10.10.10.50 port 51864 ssh2
+Nov  8 09:28:12 web01 sshd[1385]: Failed password for northstar from 10.10.10.50 port 59824 ssh2
+Nov  8 09:28:12 web01 sshd[1381]: error: maximum authentication attempts exceeded for northstar from 10.10.10.50 port 51848 ssh2 [preauth]
+Nov  8 09:28:12 web01 sshd[1381]: Disconnecting authenticating user northstar 10.10.10.50 port 51848: Too many authentication failures [preauth]
+Nov  8 09:28:12 web01 sshd[1381]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=10.10.10.50  user=northstar
+Nov  8 09:28:12 web01 sshd[1381]: PAM service(sshd) ignoring max retries; 6 > 3
+Nov  8 09:28:12 web01 sshd[1383]: error: maximum authentication attempts exceeded for northstar from 10.10.10.50 port 51864 ssh2 [preauth]
+Nov  8 09:28:12 web01 sshd[1383]: Disconnecting authenticating user northstar 10.10.10.50 port 51864: Too many authentication failures [preauth]
+Nov  8 09:28:12 web01 sshd[1383]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=10.10.10.50  user=northstar
+Nov  8 09:28:12 web01 sshd[1383]: PAM service(sshd) ignoring max retries; 6 > 3
+Nov  8 09:28:12 web01 sshd[1387]: Failed password for northstar from 10.10.10.50 port 59826 ssh2
+Nov  8 09:28:12 web01 sshd[1389]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=10.10.10.50  user=northstar
+Nov  8 09:28:12 web01 sshd[1391]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=10.10.10.50  user=northstar
+Nov  8 09:28:14 web01 sshd[1389]: Failed password for northstar from 10.10.10.50 port 39644 ssh2
+Nov  8 09:28:14 web01 sshd[1391]: Failed password for northstar from 10.10.10.50 port 39648 ssh2
+Nov  8 09:28:14 web01 sshd[1385]: Failed password for northstar from 10.10.10.50 port 59824 ssh2
+Nov  8 09:28:14 web01 sshd[1387]: Failed password for northstar from 10.10.10.50 port 59826 ssh2
+Nov  8 09:28:16 web01 sshd[1389]: Failed password for northstar from 10.10.10.50 port 39644 ssh2
+Nov  8 09:28:16 web01 sshd[1391]: Failed password for northstar from 10.10.10.50 port 39648 ssh2
+Nov  8 09:28:16 web01 sshd[1385]: Failed password for northstar from 10.10.10.50 port 59824 ssh2
+Nov  8 09:28:16 web01 sshd[1387]: Failed password for northstar from 10.10.10.50 port 59826 ssh2
+Nov  8 09:28:18 web01 sshd[1389]: Failed password for northstar from 10.10.10.50 port 39644 ssh2
+Nov  8 09:28:19 web01 sshd[1391]: Failed password for northstar from 10.10.10.50 port 39648 ssh2
+Nov  8 09:28:19 web01 sshd[1385]: Failed password for northstar from 10.10.10.50 port 59824 ssh2
+Nov  8 09:28:19 web01 sshd[1387]: Failed password for northstar from 10.10.10.50 port 59826 ssh2
+Nov  8 09:28:22 web01 sshd[1389]: Failed password for northstar from 10.10.10.50 port 39644 ssh2
+Nov  8 09:28:22 web01 sshd[1391]: Failed password for northstar from 10.10.10.50 port 39648 ssh2
+Nov  8 09:28:22 web01 sshd[1385]: Failed password for northstar from 10.10.10.50 port 59824 ssh2
+Nov  8 09:28:22 web01 sshd[1387]: Failed password for northstar from 10.10.10.50 port 59826 ssh2
+Nov  8 09:28:24 web01 sshd[1389]: Failed password for northstar from 10.10.10.50 port 39644 ssh2
+Nov  8 09:28:24 web01 sshd[1391]: Failed password for northstar from 10.10.10.50 port 39648 ssh2
+Nov  8 09:28:24 web01 sshd[1385]: Failed password for northstar from 10.10.10.50 port 59824 ssh2
+Nov  8 09:28:24 web01 sshd[1387]: Failed password for northstar from 10.10.10.50 port 59826 ssh2
+Nov  8 09:28:24 web01 sshd[1385]: error: maximum authentication attempts exceeded for northstar from 10.10.10.50 port 59824 ssh2 [preauth]
+Nov  8 09:28:24 web01 sshd[1385]: Disconnecting authenticating user northstar 10.10.10.50 port 59824: Too many authentication failures [preauth]
+Nov  8 09:28:24 web01 sshd[1385]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=10.10.10.50  user=northstar
+Nov  8 09:28:24 web01 sshd[1385]: PAM service(sshd) ignoring max retries; 6 > 3
+Nov  8 09:28:24 web01 sshd[1387]: error: maximum authentication attempts exceeded for northstar from 10.10.10.50 port 59826 ssh2 [preauth]
+Nov  8 09:28:24 web01 sshd[1387]: Disconnecting authenticating user northstar 10.10.10.50 port 59826: Too many authentication failures [preauth]
+Nov  8 09:28:24 web01 sshd[1387]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=10.10.10.50  user=northstar
+Nov  8 09:28:24 web01 sshd[1387]: PAM service(sshd) ignoring max retries; 6 > 3
+Nov  8 09:28:24 web01 sshd[1393]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=10.10.10.50  user=northstar
+Nov  8 09:28:25 web01 sshd[1395]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=10.10.10.50  user=northstar
+Nov  8 09:28:26 web01 sshd[1395]: Failed password for northstar from 10.10.10.50 port 41308 ssh2
+Nov  8 09:28:27 web01 sshd[1389]: Failed password for northstar from 10.10.10.50 port 39644 ssh2
+Nov  8 09:28:27 web01 sshd[1391]: Failed password for northstar from 10.10.10.50 port 39648 ssh2
+Nov  8 09:28:27 web01 sshd[1393]: Failed password for northstar from 10.10.10.50 port 41304 ssh2
+Nov  8 09:28:29 web01 sshd[1389]: error: maximum authentication attempts exceeded for northstar from 10.10.10.50 port 39644 ssh2 [preauth]
+Nov  8 09:28:29 web01 sshd[1389]: Disconnecting authenticating user northstar 10.10.10.50 port 39644: Too many authentication failures [preauth]
+Nov  8 09:28:29 web01 sshd[1389]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=10.10.10.50  user=northstar
+Nov  8 09:28:29 web01 sshd[1389]: PAM service(sshd) ignoring max retries; 6 > 3
+Nov  8 09:28:29 web01 sshd[1391]: error: maximum authentication attempts exceeded for northstar from 10.10.10.50 port 39648 ssh2 [preauth]
+Nov  8 09:28:29 web01 sshd[1391]: Disconnecting authenticating user northstar 10.10.10.50 port 39648: Too many authentication failures [preauth]
+Nov  8 09:28:29 web01 sshd[1391]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=10.10.10.50  user=northstar
+Nov  8 09:28:29 web01 sshd[1391]: PAM service(sshd) ignoring max retries; 6 > 3
+Nov  8 09:28:29 web01 sshd[1395]: Failed password for northstar from 10.10.10.50 port 41308 ssh2
+Nov  8 09:28:29 web01 sshd[1397]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=10.10.10.50  user=northstar
+Nov  8 09:28:29 web01 sshd[1399]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=10.10.10.50  user=northstar
+Nov  8 09:28:31 web01 sshd[1397]: Failed password for northstar from 10.10.10.50 port 41320 ssh2
+Nov  8 09:28:31 web01 sshd[1399]: Failed password for northstar from 10.10.10.50 port 41332 ssh2
+Nov  8 09:28:31 web01 sshd[1393]: Failed password for northstar from 10.10.10.50 port 41304 ssh2
+Nov  8 09:28:31 web01 sshd[1395]: Failed password for northstar from 10.10.10.50 port 41308 ssh2
+Nov  8 09:28:35 web01 sshd[1397]: Failed password for northstar from 10.10.10.50 port 41320 ssh2
+Nov  8 09:28:35 web01 sshd[1399]: Failed password for northstar from 10.10.10.50 port 41332 ssh2
+Nov  8 09:28:35 web01 sshd[1393]: Failed password for northstar from 10.10.10.50 port 41304 ssh2
+Nov  8 09:28:35 web01 sshd[1395]: Failed password for northstar from 10.10.10.50 port 41308 ssh2
+Nov  8 09:28:39 web01 sshd[1397]: Failed password for northstar from 10.10.10.50 port 41320 ssh2
+Nov  8 09:28:39 web01 sshd[1399]: Failed password for northstar from 10.10.10.50 port 41332 ssh2
+Nov  8 09:28:39 web01 sshd[1393]: Failed password for northstar from 10.10.10.50 port 41304 ssh2
+Nov  8 09:28:39 web01 sshd[1395]: Failed password for northstar from 10.10.10.50 port 41308 ssh2
+Nov  8 09:28:41 web01 sshd[1397]: Failed password for northstar from 10.10.10.50 port 41320 ssh2
+Nov  8 09:28:41 web01 sshd[1399]: Failed password for northstar from 10.10.10.50 port 41332 ssh2
+Nov  8 09:28:41 web01 sshd[1393]: Failed password for northstar from 10.10.10.50 port 41304 ssh2
+Nov  8 09:28:41 web01 sshd[1395]: Failed password for northstar from 10.10.10.50 port 41308 ssh2
+Nov  8 09:28:41 web01 sshd[1395]: error: maximum authentication attempts exceeded for northstar from 10.10.10.50 port 41308 ssh2 [preauth]
+Nov  8 09:28:41 web01 sshd[1395]: Disconnecting authenticating user northstar 10.10.10.50 port 41308: Too many authentication failures [preauth]
+Nov  8 09:28:41 web01 sshd[1395]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=10.10.10.50  user=northstar
+Nov  8 09:28:41 web01 sshd[1395]: PAM service(sshd) ignoring max retries; 6 > 3
+Nov  8 09:28:41 web01 sshd[1401]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=10.10.10.50  user=northstar
+Nov  8 09:28:43 web01 sshd[1397]: Failed password for northstar from 10.10.10.50 port 41320 ssh2
+Nov  8 09:28:43 web01 sshd[1399]: Failed password for northstar from 10.10.10.50 port 41332 ssh2
+Nov  8 09:28:43 web01 sshd[1393]: Failed password for northstar from 10.10.10.50 port 41304 ssh2
+Nov  8 09:28:43 web01 sshd[1401]: Failed password for northstar from 10.10.10.50 port 35594 ssh2
+Nov  8 09:28:45 web01 sshd[1393]: error: maximum authentication attempts exceeded for northstar from 10.10.10.50 port 41304 ssh2 [preauth]
+Nov  8 09:28:45 web01 sshd[1393]: Disconnecting authenticating user northstar 10.10.10.50 port 41304: Too many authentication failures [preauth]
+Nov  8 09:28:45 web01 sshd[1393]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=10.10.10.50  user=northstar
+Nov  8 09:28:45 web01 sshd[1393]: PAM service(sshd) ignoring max retries; 6 > 3
+Nov  8 09:28:45 web01 sshd[1403]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=10.10.10.50  user=northstar
+Nov  8 09:28:47 web01 sshd[1397]: Failed password for northstar from 10.10.10.50 port 41320 ssh2
+Nov  8 09:28:47 web01 sshd[1399]: Failed password for northstar from 10.10.10.50 port 41332 ssh2
+Nov  8 09:28:47 web01 sshd[1403]: Failed password for northstar from 10.10.10.50 port 35604 ssh2
+Nov  8 09:28:47 web01 sshd[1401]: Failed password for northstar from 10.10.10.50 port 35594 ssh2
+Nov  8 09:28:47 web01 sshd[1397]: error: maximum authentication attempts exceeded for northstar from 10.10.10.50 port 41320 ssh2 [preauth]
+Nov  8 09:28:47 web01 sshd[1397]: Disconnecting authenticating user northstar 10.10.10.50 port 41320: Too many authentication failures [preauth]
+Nov  8 09:28:47 web01 sshd[1397]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=10.10.10.50  user=northstar
+Nov  8 09:28:47 web01 sshd[1397]: PAM service(sshd) ignoring max retries; 6 > 3
+Nov  8 09:28:47 web01 sshd[1399]: error: maximum authentication attempts exceeded for northstar from 10.10.10.50 port 41332 ssh2 [preauth]
+Nov  8 09:28:47 web01 sshd[1399]: Disconnecting authenticating user northstar 10.10.10.50 port 41332: Too many authentication failures [preauth]
+Nov  8 09:28:47 web01 sshd[1399]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=10.10.10.50  user=northstar
+Nov  8 09:28:47 web01 sshd[1399]: PAM service(sshd) ignoring max retries; 6 > 3
+Nov  8 09:28:47 web01 sshd[1405]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=10.10.10.50  user=northstar
+Nov  8 09:28:47 web01 sshd[1407]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=10.10.10.50  user=northstar
+Nov  8 09:28:50 web01 sshd[1405]: Failed password for northstar from 10.10.10.50 port 35620 ssh2
+Nov  8 09:28:50 web01 sshd[1407]: Failed password for northstar from 10.10.10.50 port 35632 ssh2
+Nov  8 09:28:50 web01 sshd[1403]: Failed password for northstar from 10.10.10.50 port 35604 ssh2
+Nov  8 09:28:50 web01 sshd[1401]: Failed password for northstar from 10.10.10.50 port 35594 ssh2
+Nov  8 09:28:54 web01 sshd[1405]: Failed password for northstar from 10.10.10.50 port 35620 ssh2
+Nov  8 09:28:54 web01 sshd[1407]: Failed password for northstar from 10.10.10.50 port 35632 ssh2
+Nov  8 09:28:54 web01 sshd[1403]: Failed password for northstar from 10.10.10.50 port 35604 ssh2
+Nov  8 09:28:54 web01 sshd[1401]: Failed password for northstar from 10.10.10.50 port 35594 ssh2
+Nov  8 09:28:58 web01 sshd[1405]: Failed password for northstar from 10.10.10.50 port 35620 ssh2
+Nov  8 09:28:58 web01 sshd[1407]: Failed password for northstar from 10.10.10.50 port 35632 ssh2
+Nov  8 09:28:58 web01 sshd[1403]: Failed password for northstar from 10.10.10.50 port 35604 ssh2
+Nov  8 09:28:58 web01 sshd[1401]: Failed password for northstar from 10.10.10.50 port 35594 ssh2
+Nov  8 09:29:00 web01 sshd[1405]: Failed password for northstar from 10.10.10.50 port 35620 ssh2
+Nov  8 09:29:00 web01 sshd[1407]: Failed password for northstar from 10.10.10.50 port 35632 ssh2
+Nov  8 09:29:00 web01 sshd[1403]: Failed password for northstar from 10.10.10.50 port 35604 ssh2
+Nov  8 09:29:00 web01 sshd[1401]: Failed password for northstar from 10.10.10.50 port 35594 ssh2
+Nov  8 09:29:00 web01 sshd[1401]: error: maximum authentication attempts exceeded for northstar from 10.10.10.50 port 35594 ssh2 [preauth]
+Nov  8 09:29:00 web01 sshd[1401]: Disconnecting authenticating user northstar 10.10.10.50 port 35594: Too many authentication failures [preauth]
+Nov  8 09:29:00 web01 sshd[1401]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=10.10.10.50  user=northstar
+Nov  8 09:29:00 web01 sshd[1401]: PAM service(sshd) ignoring max retries; 6 > 3
+Nov  8 09:29:00 web01 sshd[1409]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=10.10.10.50  user=northstar
+Nov  8 09:29:02 web01 sshd[1405]: Failed password for northstar from 10.10.10.50 port 35620 ssh2
+Nov  8 09:29:02 web01 sshd[1407]: Failed password for northstar from 10.10.10.50 port 35632 ssh2
+Nov  8 09:29:02 web01 sshd[1403]: Failed password for northstar from 10.10.10.50 port 35604 ssh2
+Nov  8 09:29:02 web01 sshd[1409]: Failed password for northstar from 10.10.10.50 port 55994 ssh2
+Nov  8 09:29:04 web01 sshd[1403]: error: maximum authentication attempts exceeded for northstar from 10.10.10.50 port 35604 ssh2 [preauth]
+Nov  8 09:29:04 web01 sshd[1403]: Disconnecting authenticating user northstar 10.10.10.50 port 35604: Too many authentication failures [preauth]
+Nov  8 09:29:04 web01 sshd[1403]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=10.10.10.50  user=northstar
+Nov  8 09:29:04 web01 sshd[1403]: PAM service(sshd) ignoring max retries; 6 > 3
+Nov  8 09:29:04 web01 sshd[1411]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=10.10.10.50  user=northstar
+Nov  8 09:29:06 web01 sshd[1405]: Failed password for northstar from 10.10.10.50 port 35620 ssh2
+Nov  8 09:29:06 web01 sshd[1407]: Failed password for northstar from 10.10.10.50 port 35632 ssh2
+Nov  8 09:29:06 web01 sshd[1405]: error: maximum authentication attempts exceeded for northstar from 10.10.10.50 port 35620 ssh2 [preauth]
+Nov  8 09:29:06 web01 sshd[1405]: Disconnecting authenticating user northstar 10.10.10.50 port 35620: Too many authentication failures [preauth]
+Nov  8 09:29:06 web01 sshd[1405]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=10.10.10.50  user=northstar
+Nov  8 09:29:06 web01 sshd[1405]: PAM service(sshd) ignoring max retries; 6 > 3
+Nov  8 09:29:06 web01 sshd[1407]: error: maximum authentication attempts exceeded for northstar from 10.10.10.50 port 35632 ssh2 [preauth]
+Nov  8 09:29:06 web01 sshd[1407]: Disconnecting authenticating user northstar 10.10.10.50 port 35632: Too many authentication failures [preauth]
+Nov  8 09:29:06 web01 sshd[1407]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=10.10.10.50  user=northstar
+Nov  8 09:29:06 web01 sshd[1407]: PAM service(sshd) ignoring max retries; 6 > 3
+Nov  8 09:29:06 web01 sshd[1411]: Failed password for northstar from 10.10.10.50 port 41272 ssh2
+Nov  8 09:29:06 web01 sshd[1413]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=10.10.10.50  user=northstar
+Nov  8 09:29:06 web01 sshd[1415]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=10.10.10.50  user=northstar
+Nov  8 09:29:06 web01 sshd[1409]: Failed password for northstar from 10.10.10.50 port 55994 ssh2
+Nov  8 09:29:09 web01 sshd[1413]: Failed password for northstar from 10.10.10.50 port 41278 ssh2
+Nov  8 09:29:09 web01 sshd[1415]: Failed password for northstar from 10.10.10.50 port 41280 ssh2
+Nov  8 09:29:09 web01 sshd[1411]: Failed password for northstar from 10.10.10.50 port 41272 ssh2
+Nov  8 09:29:09 web01 sshd[1409]: Failed password for northstar from 10.10.10.50 port 55994 ssh2
+Nov  8 09:29:13 web01 sshd[1413]: Failed password for northstar from 10.10.10.50 port 41278 ssh2
+Nov  8 09:29:13 web01 sshd[1415]: Failed password for northstar from 10.10.10.50 port 41280 ssh2
+Nov  8 09:29:13 web01 sshd[1411]: Failed password for northstar from 10.10.10.50 port 41272 ssh2
+Nov  8 09:29:13 web01 sshd[1409]: Failed password for northstar from 10.10.10.50 port 55994 ssh2
+Nov  8 09:29:16 web01 sshd[1413]: Failed password for northstar from 10.10.10.50 port 41278 ssh2
+Nov  8 09:29:16 web01 sshd[1415]: Failed password for northstar from 10.10.10.50 port 41280 ssh2
+Nov  8 09:29:16 web01 sshd[1411]: Failed password for northstar from 10.10.10.50 port 41272 ssh2
+Nov  8 09:29:16 web01 sshd[1409]: Failed password for northstar from 10.10.10.50 port 55994 ssh2
+Nov  8 09:29:18 web01 sshd[1413]: Failed password for northstar from 10.10.10.50 port 41278 ssh2
+Nov  8 09:29:18 web01 sshd[1415]: Failed password for northstar from 10.10.10.50 port 41280 ssh2
+Nov  8 09:29:18 web01 sshd[1411]: Failed password for northstar from 10.10.10.50 port 41272 ssh2
+Nov  8 09:29:19 web01 sshd[1409]: Failed password for northstar from 10.10.10.50 port 55994 ssh2
+Nov  8 09:29:20 web01 sshd[1413]: Failed password for northstar from 10.10.10.50 port 41278 ssh2
+Nov  8 09:29:20 web01 sshd[1415]: Failed password for northstar from 10.10.10.50 port 41280 ssh2
+Nov  8 09:29:20 web01 sshd[1411]: Failed password for northstar from 10.10.10.50 port 41272 ssh2
+Nov  8 09:29:21 web01 sshd[1411]: error: maximum authentication attempts exceeded for northstar from 10.10.10.50 port 41272 ssh2 [preauth]
+Nov  8 09:29:21 web01 sshd[1411]: Disconnecting authenticating user northstar 10.10.10.50 port 41272: Too many authentication failures [preauth]
+Nov  8 09:29:21 web01 sshd[1411]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=10.10.10.50  user=northstar
+Nov  8 09:29:21 web01 sshd[1411]: PAM service(sshd) ignoring max retries; 6 > 3
+Nov  8 09:29:21 web01 sshd[1409]: error: maximum authentication attempts exceeded for northstar from 10.10.10.50 port 55994 ssh2 [preauth]
+Nov  8 09:29:21 web01 sshd[1409]: Disconnecting authenticating user northstar 10.10.10.50 port 55994: Too many authentication failures [preauth]
+Nov  8 09:29:21 web01 sshd[1409]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=10.10.10.50  user=northstar
+Nov  8 09:29:21 web01 sshd[1409]: PAM service(sshd) ignoring max retries; 6 > 3
+Nov  8 09:29:21 web01 sshd[1417]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=10.10.10.50  user=northstar
+Nov  8 09:29:21 web01 sshd[1419]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=10.10.10.50  user=northstar
+Nov  8 09:29:23 web01 sshd[1413]: Failed password for northstar from 10.10.10.50 port 41278 ssh2
+Nov  8 09:29:23 web01 sshd[1415]: Failed password for northstar from 10.10.10.50 port 41280 ssh2
+Nov  8 09:29:23 web01 sshd[1413]: error: maximum authentication attempts exceeded for northstar from 10.10.10.50 port 41278 ssh2 [preauth]
+Nov  8 09:29:23 web01 sshd[1413]: Disconnecting authenticating user northstar 10.10.10.50 port 41278: Too many authentication failures [preauth]
+Nov  8 09:29:23 web01 sshd[1413]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=10.10.10.50  user=northstar
+Nov  8 09:29:23 web01 sshd[1413]: PAM service(sshd) ignoring max retries; 6 > 3
+Nov  8 09:29:23 web01 sshd[1415]: error: maximum authentication attempts exceeded for northstar from 10.10.10.50 port 41280 ssh2 [preauth]
+Nov  8 09:29:23 web01 sshd[1415]: Disconnecting authenticating user northstar 10.10.10.50 port 41280: Too many authentication failures [preauth]
+Nov  8 09:29:23 web01 sshd[1415]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=10.10.10.50  user=northstar
+Nov  8 09:29:23 web01 sshd[1415]: PAM service(sshd) ignoring max retries; 6 > 3
+Nov  8 09:29:23 web01 sshd[1417]: Failed password for northstar from 10.10.10.50 port 41110 ssh2
+Nov  8 09:29:23 web01 sshd[1421]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=10.10.10.50  user=northstar
+Nov  8 09:29:23 web01 sshd[1423]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=10.10.10.50  user=northstar
+Nov  8 09:29:23 web01 sshd[1419]: Failed password for northstar from 10.10.10.50 port 48230 ssh2
+Nov  8 09:29:25 web01 sshd[1421]: Failed password for northstar from 10.10.10.50 port 48234 ssh2
+Nov  8 09:29:25 web01 sshd[1423]: Failed password for northstar from 10.10.10.50 port 48238 ssh2
+Nov  8 09:29:25 web01 sshd[1417]: Failed password for northstar from 10.10.10.50 port 41110 ssh2
+Nov  8 09:29:25 web01 sshd[1419]: Failed password for northstar from 10.10.10.50 port 48230 ssh2
+Nov  8 09:29:29 web01 sshd[1421]: Failed password for northstar from 10.10.10.50 port 48234 ssh2
+Nov  8 09:29:29 web01 sshd[1423]: Failed password for northstar from 10.10.10.50 port 48238 ssh2
+Nov  8 09:29:29 web01 sshd[1417]: Failed password for northstar from 10.10.10.50 port 41110 ssh2
+Nov  8 09:29:29 web01 sshd[1419]: Failed password for northstar from 10.10.10.50 port 48230 ssh2
+Nov  8 09:29:33 web01 sshd[1421]: Failed password for northstar from 10.10.10.50 port 48234 ssh2
+Nov  8 09:29:33 web01 sshd[1423]: Failed password for northstar from 10.10.10.50 port 48238 ssh2
+Nov  8 09:29:33 web01 sshd[1417]: Failed password for northstar from 10.10.10.50 port 41110 ssh2
+Nov  8 09:29:33 web01 sshd[1419]: Failed password for northstar from 10.10.10.50 port 48230 ssh2
+Nov  8 09:29:35 web01 sshd[1421]: Failed password for northstar from 10.10.10.50 port 48234 ssh2
+Nov  8 09:29:35 web01 sshd[1423]: Failed password for northstar from 10.10.10.50 port 48238 ssh2
+Nov  8 09:29:35 web01 sshd[1417]: Failed password for northstar from 10.10.10.50 port 41110 ssh2
+Nov  8 09:29:35 web01 sshd[1419]: Failed password for northstar from 10.10.10.50 port 48230 ssh2
+Nov  8 09:29:37 web01 sshd[1421]: Failed password for northstar from 10.10.10.50 port 48234 ssh2
+Nov  8 09:29:37 web01 sshd[1423]: Failed password for northstar from 10.10.10.50 port 48238 ssh2
+Nov  8 09:29:37 web01 sshd[1417]: Failed password for northstar from 10.10.10.50 port 41110 ssh2
+Nov  8 09:29:38 web01 sshd[1419]: Failed password for northstar from 10.10.10.50 port 48230 ssh2
+Nov  8 09:29:39 web01 sshd[1417]: error: maximum authentication attempts exceeded for northstar from 10.10.10.50 port 41110 ssh2 [preauth]
+Nov  8 09:29:39 web01 sshd[1417]: Disconnecting authenticating user northstar 10.10.10.50 port 41110: Too many authentication failures [preauth]
+Nov  8 09:29:39 web01 sshd[1417]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=10.10.10.50  user=northstar
+Nov  8 09:29:39 web01 sshd[1417]: PAM service(sshd) ignoring max retries; 6 > 3
+Nov  8 09:29:39 web01 sshd[1419]: error: maximum authentication attempts exceeded for northstar from 10.10.10.50 port 48230 ssh2 [preauth]
+Nov  8 09:29:39 web01 sshd[1419]: Disconnecting authenticating user northstar 10.10.10.50 port 48230: Too many authentication failures [preauth]
+Nov  8 09:29:39 web01 sshd[1419]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=10.10.10.50  user=northstar
+Nov  8 09:29:39 web01 sshd[1419]: PAM service(sshd) ignoring max retries; 6 > 3
+Nov  8 09:29:39 web01 sshd[1426]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=10.10.10.50  user=northstar
+Nov  8 09:29:40 web01 sshd[1428]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=10.10.10.50  user=northstar
+Nov  8 09:29:41 web01 sshd[1421]: Failed password for northstar from 10.10.10.50 port 48234 ssh2
+Nov  8 09:29:41 web01 sshd[1423]: Failed password for northstar from 10.10.10.50 port 48238 ssh2
+Nov  8 09:29:41 web01 sshd[1426]: Failed password for northstar from 10.10.10.50 port 48614 ssh2
+Nov  8 09:29:41 web01 sshd[1421]: error: maximum authentication attempts exceeded for northstar from 10.10.10.50 port 48234 ssh2 [preauth]
+Nov  8 09:29:41 web01 sshd[1421]: Disconnecting authenticating user northstar 10.10.10.50 port 48234: Too many authentication failures [preauth]
+Nov  8 09:29:41 web01 sshd[1421]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=10.10.10.50  user=northstar
+Nov  8 09:29:41 web01 sshd[1421]: PAM service(sshd) ignoring max retries; 6 > 3
+Nov  8 09:29:41 web01 sshd[1423]: error: maximum authentication attempts exceeded for northstar from 10.10.10.50 port 48238 ssh2 [preauth]
+Nov  8 09:29:41 web01 sshd[1423]: Disconnecting authenticating user northstar 10.10.10.50 port 48238: Too many authentication failures [preauth]
+Nov  8 09:29:41 web01 sshd[1423]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=10.10.10.50  user=northstar
+Nov  8 09:29:41 web01 sshd[1423]: PAM service(sshd) ignoring max retries; 6 > 3
+Nov  8 09:29:41 web01 sshd[1428]: Failed password for northstar from 10.10.10.50 port 48628 ssh2
+Nov  8 09:29:42 web01 sshd[1430]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=10.10.10.50  user=northstar
+Nov  8 09:29:42 web01 sshd[1432]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=10.10.10.50  user=northstar
+Nov  8 09:29:44 web01 sshd[1430]: Failed password for northstar from 10.10.10.50 port 33840 ssh2
+Nov  8 09:29:44 web01 sshd[1432]: Failed password for northstar from 10.10.10.50 port 33842 ssh2
+Nov  8 09:29:44 web01 sshd[1426]: Failed password for northstar from 10.10.10.50 port 48614 ssh2
+Nov  8 09:29:44 web01 sshd[1428]: Failed password for northstar from 10.10.10.50 port 48628 ssh2
+Nov  8 09:29:48 web01 sshd[1430]: Failed password for northstar from 10.10.10.50 port 33840 ssh2
+Nov  8 09:29:48 web01 sshd[1432]: Failed password for northstar from 10.10.10.50 port 33842 ssh2
+Nov  8 09:29:48 web01 sshd[1426]: Failed password for northstar from 10.10.10.50 port 48614 ssh2
+Nov  8 09:29:48 web01 sshd[1428]: Failed password for northstar from 10.10.10.50 port 48628 ssh2
+Nov  8 09:29:52 web01 sshd[1430]: Failed password for northstar from 10.10.10.50 port 33840 ssh2
+Nov  8 09:29:52 web01 sshd[1432]: Failed password for northstar from 10.10.10.50 port 33842 ssh2
+Nov  8 09:29:52 web01 sshd[1426]: Failed password for northstar from 10.10.10.50 port 48614 ssh2
+Nov  8 09:29:52 web01 sshd[1428]: Failed password for northstar from 10.10.10.50 port 48628 ssh2
+Nov  8 09:29:54 web01 sshd[1430]: Failed password for northstar from 10.10.10.50 port 33840 ssh2
+Nov  8 09:29:54 web01 sshd[1432]: Failed password for northstar from 10.10.10.50 port 33842 ssh2
+Nov  8 09:29:54 web01 sshd[1426]: Failed password for northstar from 10.10.10.50 port 48614 ssh2
+Nov  8 09:29:54 web01 sshd[1428]: Failed password for northstar from 10.10.10.50 port 48628 ssh2
+Nov  8 09:29:56 web01 sshd[1430]: Failed password for northstar from 10.10.10.50 port 33840 ssh2
+Nov  8 09:29:56 web01 sshd[1432]: Failed password for northstar from 10.10.10.50 port 33842 ssh2
+Nov  8 09:29:57 web01 sshd[1426]: Failed password for northstar from 10.10.10.50 port 48614 ssh2
+Nov  8 09:29:57 web01 sshd[1428]: Failed password for northstar from 10.10.10.50 port 48628 ssh2
+Nov  8 09:29:58 web01 sshd[1426]: error: maximum authentication attempts exceeded for northstar from 10.10.10.50 port 48614 ssh2 [preauth]
+Nov  8 09:29:58 web01 sshd[1426]: Disconnecting authenticating user northstar 10.10.10.50 port 48614: Too many authentication failures [preauth]
+Nov  8 09:29:58 web01 sshd[1426]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=10.10.10.50  user=northstar
+Nov  8 09:29:58 web01 sshd[1426]: PAM service(sshd) ignoring max retries; 6 > 3
+Nov  8 09:29:58 web01 sshd[1428]: error: maximum authentication attempts exceeded for northstar from 10.10.10.50 port 48628 ssh2 [preauth]
+Nov  8 09:29:58 web01 sshd[1428]: Disconnecting authenticating user northstar 10.10.10.50 port 48628: Too many authentication failures [preauth]
+Nov  8 09:29:58 web01 sshd[1428]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=10.10.10.50  user=northstar
+Nov  8 09:29:58 web01 sshd[1428]: PAM service(sshd) ignoring max retries; 6 > 3
+Nov  8 09:29:58 web01 sshd[1434]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=10.10.10.50  user=northstar
+Nov  8 09:29:58 web01 sshd[1436]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=10.10.10.50  user=northstar
+Nov  8 09:30:00 web01 sshd[1430]: Failed password for northstar from 10.10.10.50 port 33840 ssh2
+Nov  8 09:30:00 web01 sshd[1432]: Failed password for northstar from 10.10.10.50 port 33842 ssh2
+Nov  8 09:30:00 web01 sshd[1434]: Failed password for northstar from 10.10.10.50 port 43398 ssh2
+Nov  8 09:30:00 web01 sshd[1436]: Failed password for northstar from 10.10.10.50 port 43414 ssh2
+Nov  8 09:30:02 web01 sshd[1430]: error: maximum authentication attempts exceeded for northstar from 10.10.10.50 port 33840 ssh2 [preauth]
+Nov  8 09:30:02 web01 sshd[1430]: Disconnecting authenticating user northstar 10.10.10.50 port 33840: Too many authentication failures [preauth]
+Nov  8 09:30:02 web01 sshd[1430]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=10.10.10.50  user=northstar
+Nov  8 09:30:02 web01 sshd[1430]: PAM service(sshd) ignoring max retries; 6 > 3
+Nov  8 09:30:02 web01 sshd[1432]: error: maximum authentication attempts exceeded for northstar from 10.10.10.50 port 33842 ssh2 [preauth]
+Nov  8 09:30:02 web01 sshd[1432]: Disconnecting authenticating user northstar 10.10.10.50 port 33842: Too many authentication failures [preauth]
+Nov  8 09:30:02 web01 sshd[1432]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=10.10.10.50  user=northstar
+Nov  8 09:30:02 web01 sshd[1432]: PAM service(sshd) ignoring max retries; 6 > 3
+Nov  8 09:30:02 web01 sshd[1438]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=10.10.10.50  user=northstar
+Nov  8 09:30:02 web01 sshd[1440]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=10.10.10.50  user=northstar
+Nov  8 09:30:04 web01 sshd[1438]: Failed password for northstar from 10.10.10.50 port 42524 ssh2
+Nov  8 09:30:04 web01 sshd[1440]: Failed password for northstar from 10.10.10.50 port 42532 ssh2
+Nov  8 09:30:04 web01 sshd[1434]: Failed password for northstar from 10.10.10.50 port 43398 ssh2
+Nov  8 09:30:04 web01 sshd[1436]: Failed password for northstar from 10.10.10.50 port 43414 ssh2
+Nov  8 09:30:07 web01 sshd[1438]: Failed password for northstar from 10.10.10.50 port 42524 ssh2
+Nov  8 09:30:07 web01 sshd[1440]: Failed password for northstar from 10.10.10.50 port 42532 ssh2
+Nov  8 09:30:07 web01 sshd[1434]: Failed password for northstar from 10.10.10.50 port 43398 ssh2
+Nov  8 09:30:07 web01 sshd[1436]: Failed password for northstar from 10.10.10.50 port 43414 ssh2
+Nov  8 09:30:11 web01 sshd[1438]: Failed password for northstar from 10.10.10.50 port 42524 ssh2
+Nov  8 09:30:11 web01 sshd[1440]: Failed password for northstar from 10.10.10.50 port 42532 ssh2
+Nov  8 09:30:11 web01 sshd[1434]: Failed password for northstar from 10.10.10.50 port 43398 ssh2
+Nov  8 09:30:11 web01 sshd[1436]: Failed password for northstar from 10.10.10.50 port 43414 ssh2
+Nov  8 09:30:14 web01 sshd[1438]: Failed password for northstar from 10.10.10.50 port 42524 ssh2
+Nov  8 09:30:15 web01 sshd[1440]: Failed password for northstar from 10.10.10.50 port 42532 ssh2
+Nov  8 09:30:15 web01 sshd[1434]: Failed password for northstar from 10.10.10.50 port 43398 ssh2
+Nov  8 09:30:15 web01 sshd[1436]: Failed password for northstar from 10.10.10.50 port 43414 ssh2
+Nov  8 09:30:17 web01 sshd[1438]: Failed password for northstar from 10.10.10.50 port 42524 ssh2
+Nov  8 09:30:17 web01 sshd[1440]: Failed password for northstar from 10.10.10.50 port 42532 ssh2
+Nov  8 09:30:17 web01 sshd[1434]: Failed password for northstar from 10.10.10.50 port 43398 ssh2
+Nov  8 09:30:17 web01 sshd[1436]: Failed password for northstar from 10.10.10.50 port 43414 ssh2
+Nov  8 09:30:17 web01 sshd[1434]: error: maximum authentication attempts exceeded for northstar from 10.10.10.50 port 43398 ssh2 [preauth]
+Nov  8 09:30:17 web01 sshd[1434]: Disconnecting authenticating user northstar 10.10.10.50 port 43398: Too many authentication failures [preauth]
+Nov  8 09:30:17 web01 sshd[1434]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=10.10.10.50  user=northstar
+Nov  8 09:30:17 web01 sshd[1434]: PAM service(sshd) ignoring max retries; 6 > 3
+Nov  8 09:30:17 web01 sshd[1436]: error: maximum authentication attempts exceeded for northstar from 10.10.10.50 port 43414 ssh2 [preauth]
+Nov  8 09:30:17 web01 sshd[1436]: Disconnecting authenticating user northstar 10.10.10.50 port 43414: Too many authentication failures [preauth]
+Nov  8 09:30:17 web01 sshd[1436]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=10.10.10.50  user=northstar
+Nov  8 09:30:17 web01 sshd[1436]: PAM service(sshd) ignoring max retries; 6 > 3
+Nov  8 09:30:17 web01 sshd[1443]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=10.10.10.50  user=northstar
+Nov  8 09:30:17 web01 sshd[1445]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=10.10.10.50  user=northstar
+Nov  8 09:30:19 web01 sshd[1438]: Failed password for northstar from 10.10.10.50 port 42524 ssh2
+Nov  8 09:30:19 web01 sshd[1440]: Failed password for northstar from 10.10.10.50 port 42532 ssh2
+Nov  8 09:30:19 web01 sshd[1443]: Failed password for northstar from 10.10.10.50 port 51812 ssh2
+Nov  8 09:30:19 web01 sshd[1445]: Failed password for northstar from 10.10.10.50 port 51820 ssh2
+Nov  8 09:30:21 web01 sshd[1438]: error: maximum authentication attempts exceeded for northstar from 10.10.10.50 port 42524 ssh2 [preauth]
+Nov  8 09:30:21 web01 sshd[1438]: Disconnecting authenticating user northstar 10.10.10.50 port 42524: Too many authentication failures [preauth]
+Nov  8 09:30:21 web01 sshd[1438]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=10.10.10.50  user=northstar
+Nov  8 09:30:21 web01 sshd[1438]: PAM service(sshd) ignoring max retries; 6 > 3
+Nov  8 09:30:21 web01 sshd[1440]: error: maximum authentication attempts exceeded for northstar from 10.10.10.50 port 42532 ssh2 [preauth]
+Nov  8 09:30:21 web01 sshd[1440]: Disconnecting authenticating user northstar 10.10.10.50 port 42532: Too many authentication failures [preauth]
+Nov  8 09:30:21 web01 sshd[1440]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=10.10.10.50  user=northstar
+Nov  8 09:30:21 web01 sshd[1440]: PAM service(sshd) ignoring max retries; 6 > 3
+Nov  8 09:30:21 web01 sshd[1447]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=10.10.10.50  user=northstar
+Nov  8 09:30:21 web01 sshd[1449]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=10.10.10.50  user=northstar
+Nov  8 09:30:23 web01 sshd[1447]: Failed password for northstar from 10.10.10.50 port 59778 ssh2
+Nov  8 09:30:23 web01 sshd[1449]: Failed password for northstar from 10.10.10.50 port 59792 ssh2
+Nov  8 09:30:23 web01 sshd[1443]: Failed password for northstar from 10.10.10.50 port 51812 ssh2
+Nov  8 09:30:23 web01 sshd[1445]: Failed password for northstar from 10.10.10.50 port 51820 ssh2
+Nov  8 09:30:27 web01 sshd[1447]: Failed password for northstar from 10.10.10.50 port 59778 ssh2
+Nov  8 09:30:27 web01 sshd[1449]: Failed password for northstar from 10.10.10.50 port 59792 ssh2
+Nov  8 09:30:27 web01 sshd[1443]: Failed password for northstar from 10.10.10.50 port 51812 ssh2
+Nov  8 09:30:27 web01 sshd[1445]: Failed password for northstar from 10.10.10.50 port 51820 ssh2
+Nov  8 09:30:29 web01 sshd[1447]: Failed password for northstar from 10.10.10.50 port 59778 ssh2
+Nov  8 09:30:29 web01 sshd[1449]: Failed password for northstar from 10.10.10.50 port 59792 ssh2
+Nov  8 09:30:29 web01 sshd[1443]: Failed password for northstar from 10.10.10.50 port 51812 ssh2
+Nov  8 09:30:29 web01 sshd[1445]: Failed password for northstar from 10.10.10.50 port 51820 ssh2
+Nov  8 09:30:32 web01 sshd[1447]: Failed password for northstar from 10.10.10.50 port 59778 ssh2
+Nov  8 09:30:32 web01 sshd[1449]: Failed password for northstar from 10.10.10.50 port 59792 ssh2
+Nov  8 09:30:32 web01 sshd[1443]: Failed password for northstar from 10.10.10.50 port 51812 ssh2
+Nov  8 09:30:32 web01 sshd[1445]: Failed password for northstar from 10.10.10.50 port 51820 ssh2
+Nov  8 09:30:36 web01 sshd[1447]: Failed password for northstar from 10.10.10.50 port 59778 ssh2
+Nov  8 09:30:36 web01 sshd[1449]: Failed password for northstar from 10.10.10.50 port 59792 ssh2
+Nov  8 09:30:36 web01 sshd[1443]: Failed password for northstar from 10.10.10.50 port 51812 ssh2
+Nov  8 09:30:36 web01 sshd[1445]: Failed password for northstar from 10.10.10.50 port 51820 ssh2
+Nov  8 09:30:36 web01 sshd[1443]: error: maximum authentication attempts exceeded for northstar from 10.10.10.50 port 51812 ssh2 [preauth]
+Nov  8 09:30:36 web01 sshd[1443]: Disconnecting authenticating user northstar 10.10.10.50 port 51812: Too many authentication failures [preauth]
+Nov  8 09:30:36 web01 sshd[1443]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=10.10.10.50  user=northstar
+Nov  8 09:30:36 web01 sshd[1443]: PAM service(sshd) ignoring max retries; 6 > 3
+Nov  8 09:30:36 web01 sshd[1445]: error: maximum authentication attempts exceeded for northstar from 10.10.10.50 port 51820 ssh2 [preauth]
+Nov  8 09:30:36 web01 sshd[1445]: Disconnecting authenticating user northstar 10.10.10.50 port 51820: Too many authentication failures [preauth]
+Nov  8 09:30:36 web01 sshd[1445]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=10.10.10.50  user=northstar
+Nov  8 09:30:36 web01 sshd[1445]: PAM service(sshd) ignoring max retries; 6 > 3
+Nov  8 09:30:36 web01 sshd[1451]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=10.10.10.50  user=northstar
+Nov  8 09:30:36 web01 sshd[1453]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=10.10.10.50  user=northstar
+Nov  8 09:30:38 web01 sshd[1447]: Failed password for northstar from 10.10.10.50 port 59778 ssh2
+Nov  8 09:30:38 web01 sshd[1449]: Failed password for northstar from 10.10.10.50 port 59792 ssh2
+Nov  8 09:30:38 web01 sshd[1451]: Failed password for northstar from 10.10.10.50 port 58904 ssh2
+Nov  8 09:30:38 web01 sshd[1453]: Failed password for northstar from 10.10.10.50 port 58908 ssh2
+Nov  8 09:30:40 web01 sshd[1447]: error: maximum authentication attempts exceeded for northstar from 10.10.10.50 port 59778 ssh2 [preauth]
+Nov  8 09:30:40 web01 sshd[1447]: Disconnecting authenticating user northstar 10.10.10.50 port 59778: Too many authentication failures [preauth]
+Nov  8 09:30:40 web01 sshd[1447]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=10.10.10.50  user=northstar
+Nov  8 09:30:40 web01 sshd[1447]: PAM service(sshd) ignoring max retries; 6 > 3
+Nov  8 09:30:40 web01 sshd[1449]: error: maximum authentication attempts exceeded for northstar from 10.10.10.50 port 59792 ssh2 [preauth]
+Nov  8 09:30:40 web01 sshd[1449]: Disconnecting authenticating user northstar 10.10.10.50 port 59792: Too many authentication failures [preauth]
+Nov  8 09:30:40 web01 sshd[1449]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=10.10.10.50  user=northstar
+Nov  8 09:30:40 web01 sshd[1449]: PAM service(sshd) ignoring max retries; 6 > 3
+Nov  8 09:30:40 web01 sshd[1457]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=10.10.10.50  user=northstar
+Nov  8 09:30:40 web01 sshd[1455]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=10.10.10.50  user=northstar
+Nov  8 09:30:42 web01 sshd[1457]: Failed password for northstar from 10.10.10.50 port 58924 ssh2
+Nov  8 09:30:42 web01 sshd[1455]: Failed password for northstar from 10.10.10.50 port 58918 ssh2
+Nov  8 09:30:42 web01 sshd[1451]: Failed password for northstar from 10.10.10.50 port 58904 ssh2
+Nov  8 09:30:42 web01 sshd[1453]: Failed password for northstar from 10.10.10.50 port 58908 ssh2
+Nov  8 09:30:46 web01 sshd[1457]: Failed password for northstar from 10.10.10.50 port 58924 ssh2
+Nov  8 09:30:46 web01 sshd[1455]: Failed password for northstar from 10.10.10.50 port 58918 ssh2
+Nov  8 09:30:46 web01 sshd[1451]: Failed password for northstar from 10.10.10.50 port 58904 ssh2
+Nov  8 09:30:46 web01 sshd[1453]: Failed password for northstar from 10.10.10.50 port 58908 ssh2
+Nov  8 09:30:48 web01 sshd[1457]: Failed password for northstar from 10.10.10.50 port 58924 ssh2
+Nov  8 09:30:48 web01 sshd[1455]: Failed password for northstar from 10.10.10.50 port 58918 ssh2
+Nov  8 09:30:48 web01 sshd[1451]: Failed password for northstar from 10.10.10.50 port 58904 ssh2
+Nov  8 09:30:48 web01 sshd[1453]: Failed password for northstar from 10.10.10.50 port 58908 ssh2
+Nov  8 09:30:50 web01 sshd[1457]: Failed password for northstar from 10.10.10.50 port 58924 ssh2
+Nov  8 09:30:50 web01 sshd[1455]: Failed password for northstar from 10.10.10.50 port 58918 ssh2
+Nov  8 09:30:50 web01 sshd[1451]: Failed password for northstar from 10.10.10.50 port 58904 ssh2
+Nov  8 09:30:50 web01 sshd[1453]: Failed password for northstar from 10.10.10.50 port 58908 ssh2
+Nov  8 09:30:54 web01 sshd[1457]: Failed password for northstar from 10.10.10.50 port 58924 ssh2
+Nov  8 09:30:54 web01 sshd[1455]: Failed password for northstar from 10.10.10.50 port 58918 ssh2
+Nov  8 09:30:54 web01 sshd[1451]: Failed password for northstar from 10.10.10.50 port 58904 ssh2
+Nov  8 09:30:55 web01 sshd[1453]: Failed password for northstar from 10.10.10.50 port 58908 ssh2
+Nov  8 09:30:56 web01 sshd[1451]: error: maximum authentication attempts exceeded for northstar from 10.10.10.50 port 58904 ssh2 [preauth]
+Nov  8 09:30:56 web01 sshd[1451]: Disconnecting authenticating user northstar 10.10.10.50 port 58904: Too many authentication failures [preauth]
+Nov  8 09:30:56 web01 sshd[1451]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=10.10.10.50  user=northstar
+Nov  8 09:30:56 web01 sshd[1451]: PAM service(sshd) ignoring max retries; 6 > 3
+Nov  8 09:30:56 web01 sshd[1453]: error: maximum authentication attempts exceeded for northstar from 10.10.10.50 port 58908 ssh2 [preauth]
+Nov  8 09:30:56 web01 sshd[1453]: Disconnecting authenticating user northstar 10.10.10.50 port 58908: Too many authentication failures [preauth]
+Nov  8 09:30:56 web01 sshd[1453]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=10.10.10.50  user=northstar
+Nov  8 09:30:56 web01 sshd[1453]: PAM service(sshd) ignoring max retries; 6 > 3
+Nov  8 09:30:57 web01 sshd[1459]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=10.10.10.50  user=northstar
+Nov  8 09:30:57 web01 sshd[1461]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=10.10.10.50  user=northstar
+Nov  8 09:30:58 web01 sshd[1459]: Failed password for northstar from 10.10.10.50 port 40244 ssh2
+Nov  8 09:30:58 web01 sshd[1461]: Failed password for northstar from 10.10.10.50 port 40250 ssh2
+Nov  8 09:30:58 web01 sshd[1457]: Failed password for northstar from 10.10.10.50 port 58924 ssh2
+Nov  8 09:30:58 web01 sshd[1455]: Failed password for northstar from 10.10.10.50 port 58918 ssh2
+Nov  8 09:30:58 web01 sshd[1457]: error: maximum authentication attempts exceeded for northstar from 10.10.10.50 port 58924 ssh2 [preauth]
+Nov  8 09:30:58 web01 sshd[1457]: Disconnecting authenticating user northstar 10.10.10.50 port 58924: Too many authentication failures [preauth]
+Nov  8 09:30:58 web01 sshd[1457]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=10.10.10.50  user=northstar
+Nov  8 09:30:58 web01 sshd[1457]: PAM service(sshd) ignoring max retries; 6 > 3
+Nov  8 09:30:59 web01 sshd[1455]: error: maximum authentication attempts exceeded for northstar from 10.10.10.50 port 58918 ssh2 [preauth]
+Nov  8 09:30:59 web01 sshd[1455]: Disconnecting authenticating user northstar 10.10.10.50 port 58918: Too many authentication failures [preauth]
+Nov  8 09:30:59 web01 sshd[1455]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=10.10.10.50  user=northstar
+Nov  8 09:30:59 web01 sshd[1455]: PAM service(sshd) ignoring max retries; 6 > 3
+Nov  8 09:30:59 web01 sshd[1463]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=10.10.10.50  user=northstar
+Nov  8 09:30:59 web01 sshd[1465]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=10.10.10.50  user=northstar
+Nov  8 09:31:01 web01 sshd[1463]: Failed password for northstar from 10.10.10.50 port 40254 ssh2
+Nov  8 09:31:01 web01 sshd[1465]: Failed password for northstar from 10.10.10.50 port 40266 ssh2
+Nov  8 09:31:01 web01 sshd[1459]: Failed password for northstar from 10.10.10.50 port 40244 ssh2
+Nov  8 09:31:01 web01 sshd[1461]: Failed password for northstar from 10.10.10.50 port 40250 ssh2
+Nov  8 09:31:05 web01 sshd[1463]: Failed password for northstar from 10.10.10.50 port 40254 ssh2
+Nov  8 09:31:05 web01 sshd[1465]: Failed password for northstar from 10.10.10.50 port 40266 ssh2
+Nov  8 09:31:05 web01 sshd[1459]: Failed password for northstar from 10.10.10.50 port 40244 ssh2
+Nov  8 09:31:05 web01 sshd[1461]: Failed password for northstar from 10.10.10.50 port 40250 ssh2
+Nov  8 09:31:09 web01 sshd[1463]: Failed password for northstar from 10.10.10.50 port 40254 ssh2
+Nov  8 09:31:09 web01 sshd[1465]: Failed password for northstar from 10.10.10.50 port 40266 ssh2
+Nov  8 09:31:09 web01 sshd[1459]: Failed password for northstar from 10.10.10.50 port 40244 ssh2
+Nov  8 09:31:09 web01 sshd[1461]: Failed password for northstar from 10.10.10.50 port 40250 ssh2
+Nov  8 09:31:11 web01 sshd[1463]: Failed password for northstar from 10.10.10.50 port 40254 ssh2
+Nov  8 09:31:11 web01 sshd[1465]: Failed password for northstar from 10.10.10.50 port 40266 ssh2
+Nov  8 09:31:11 web01 sshd[1459]: Failed password for northstar from 10.10.10.50 port 40244 ssh2
+Nov  8 09:31:11 web01 sshd[1461]: Failed password for northstar from 10.10.10.50 port 40250 ssh2
+Nov  8 09:31:13 web01 sshd[1463]: Failed password for northstar from 10.10.10.50 port 40254 ssh2
+Nov  8 09:31:13 web01 sshd[1465]: Failed password for northstar from 10.10.10.50 port 40266 ssh2
+Nov  8 09:31:13 web01 sshd[1459]: Failed password for northstar from 10.10.10.50 port 40244 ssh2
+Nov  8 09:31:13 web01 sshd[1461]: Failed password for northstar from 10.10.10.50 port 40250 ssh2
+Nov  8 09:31:13 web01 sshd[1459]: error: maximum authentication attempts exceeded for northstar from 10.10.10.50 port 40244 ssh2 [preauth]
+Nov  8 09:31:13 web01 sshd[1459]: Disconnecting authenticating user northstar 10.10.10.50 port 40244: Too many authentication failures [preauth]
+Nov  8 09:31:13 web01 sshd[1459]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=10.10.10.50  user=northstar
+Nov  8 09:31:13 web01 sshd[1459]: PAM service(sshd) ignoring max retries; 6 > 3
+Nov  8 09:31:13 web01 sshd[1461]: error: maximum authentication attempts exceeded for northstar from 10.10.10.50 port 40250 ssh2 [preauth]
+Nov  8 09:31:13 web01 sshd[1461]: Disconnecting authenticating user northstar 10.10.10.50 port 40250: Too many authentication failures [preauth]
+Nov  8 09:31:13 web01 sshd[1461]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=10.10.10.50  user=northstar
+Nov  8 09:31:13 web01 sshd[1461]: PAM service(sshd) ignoring max retries; 6 > 3
+Nov  8 09:31:13 web01 sshd[1469]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=10.10.10.50  user=northstar
+Nov  8 09:31:13 web01 sshd[1467]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=10.10.10.50  user=northstar
+Nov  8 09:31:15 web01 sshd[1463]: Failed password for northstar from 10.10.10.50 port 40254 ssh2
+Nov  8 09:31:15 web01 sshd[1465]: Failed password for northstar from 10.10.10.50 port 40266 ssh2
+Nov  8 09:31:15 web01 sshd[1469]: Failed password for northstar from 10.10.10.50 port 43118 ssh2
+Nov  8 09:31:15 web01 sshd[1467]: Failed password for northstar from 10.10.10.50 port 43112 ssh2
+Nov  8 09:31:15 web01 sshd[1463]: error: maximum authentication attempts exceeded for northstar from 10.10.10.50 port 40254 ssh2 [preauth]
+Nov  8 09:31:15 web01 sshd[1463]: Disconnecting authenticating user northstar 10.10.10.50 port 40254: Too many authentication failures [preauth]
+Nov  8 09:31:15 web01 sshd[1463]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=10.10.10.50  user=northstar
+Nov  8 09:31:15 web01 sshd[1463]: PAM service(sshd) ignoring max retries; 6 > 3
+Nov  8 09:31:15 web01 sshd[1465]: error: maximum authentication attempts exceeded for northstar from 10.10.10.50 port 40266 ssh2 [preauth]
+Nov  8 09:31:15 web01 sshd[1465]: Disconnecting authenticating user northstar 10.10.10.50 port 40266: Too many authentication failures [preauth]
+Nov  8 09:31:15 web01 sshd[1465]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=10.10.10.50  user=northstar
+Nov  8 09:31:15 web01 sshd[1465]: PAM service(sshd) ignoring max retries; 6 > 3
+Nov  8 09:31:15 web01 sshd[1471]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=10.10.10.50  user=northstar
+Nov  8 09:31:15 web01 sshd[1473]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=10.10.10.50  user=northstar
+Nov  8 09:31:18 web01 sshd[1471]: Failed password for northstar from 10.10.10.50 port 43132 ssh2
+Nov  8 09:31:18 web01 sshd[1473]: Failed password for northstar from 10.10.10.50 port 43146 ssh2
+Nov  8 09:31:18 web01 sshd[1469]: Failed password for northstar from 10.10.10.50 port 43118 ssh2
+Nov  8 09:31:18 web01 sshd[1467]: Failed password for northstar from 10.10.10.50 port 43112 ssh2
+Nov  8 09:31:21 web01 sshd[1471]: Failed password for northstar from 10.10.10.50 port 43132 ssh2
+Nov  8 09:31:21 web01 sshd[1473]: Failed password for northstar from 10.10.10.50 port 43146 ssh2
+Nov  8 09:31:21 web01 sshd[1469]: Failed password for northstar from 10.10.10.50 port 43118 ssh2
+Nov  8 09:31:21 web01 sshd[1467]: Failed password for northstar from 10.10.10.50 port 43112 ssh2
+Nov  8 09:31:23 web01 sshd[1471]: Failed password for northstar from 10.10.10.50 port 43132 ssh2
+Nov  8 09:31:23 web01 sshd[1473]: Failed password for northstar from 10.10.10.50 port 43146 ssh2
+Nov  8 09:31:23 web01 sshd[1469]: Failed password for northstar from 10.10.10.50 port 43118 ssh2
+Nov  8 09:31:23 web01 sshd[1467]: Failed password for northstar from 10.10.10.50 port 43112 ssh2
+Nov  8 09:31:25 web01 sshd[1471]: Failed password for northstar from 10.10.10.50 port 43132 ssh2
+Nov  8 09:31:25 web01 sshd[1473]: Failed password for northstar from 10.10.10.50 port 43146 ssh2
+Nov  8 09:31:25 web01 sshd[1469]: Failed password for northstar from 10.10.10.50 port 43118 ssh2
+Nov  8 09:31:26 web01 sshd[1467]: Failed password for northstar from 10.10.10.50 port 43112 ssh2
+Nov  8 09:31:28 web01 sshd[1471]: Failed password for northstar from 10.10.10.50 port 43132 ssh2
+Nov  8 09:31:28 web01 sshd[1473]: Failed password for northstar from 10.10.10.50 port 43146 ssh2
+Nov  8 09:31:28 web01 sshd[1469]: Failed password for northstar from 10.10.10.50 port 43118 ssh2
+Nov  8 09:31:28 web01 sshd[1467]: Failed password for northstar from 10.10.10.50 port 43112 ssh2
+Nov  8 09:31:30 web01 sshd[1469]: error: maximum authentication attempts exceeded for northstar from 10.10.10.50 port 43118 ssh2 [preauth]
+Nov  8 09:31:30 web01 sshd[1469]: Disconnecting authenticating user northstar 10.10.10.50 port 43118: Too many authentication failures [preauth]
+Nov  8 09:31:30 web01 sshd[1469]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=10.10.10.50  user=northstar
+Nov  8 09:31:30 web01 sshd[1469]: PAM service(sshd) ignoring max retries; 6 > 3
+Nov  8 09:31:30 web01 sshd[1467]: error: maximum authentication attempts exceeded for northstar from 10.10.10.50 port 43112 ssh2 [preauth]
+Nov  8 09:31:30 web01 sshd[1467]: Disconnecting authenticating user northstar 10.10.10.50 port 43112: Too many authentication failures [preauth]
+Nov  8 09:31:30 web01 sshd[1467]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=10.10.10.50  user=northstar
+Nov  8 09:31:30 web01 sshd[1467]: PAM service(sshd) ignoring max retries; 6 > 3
+Nov  8 09:31:30 web01 sshd[1475]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=10.10.10.50  user=northstar
+Nov  8 09:31:30 web01 sshd[1477]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=10.10.10.50  user=northstar
+Nov  8 09:31:32 web01 sshd[1471]: Failed password for northstar from 10.10.10.50 port 43132 ssh2
+Nov  8 09:31:32 web01 sshd[1473]: Failed password for northstar from 10.10.10.50 port 43146 ssh2
+Nov  8 09:31:32 web01 sshd[1475]: Failed password for northstar from 10.10.10.50 port 57012 ssh2
+Nov  8 09:31:32 web01 sshd[1477]: Failed password for northstar from 10.10.10.50 port 57028 ssh2
+Nov  8 09:31:34 web01 sshd[1471]: error: maximum authentication attempts exceeded for northstar from 10.10.10.50 port 43132 ssh2 [preauth]
+Nov  8 09:31:34 web01 sshd[1471]: Disconnecting authenticating user northstar 10.10.10.50 port 43132: Too many authentication failures [preauth]
+Nov  8 09:31:34 web01 sshd[1471]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=10.10.10.50  user=northstar
+Nov  8 09:31:34 web01 sshd[1471]: PAM service(sshd) ignoring max retries; 6 > 3
+Nov  8 09:31:34 web01 sshd[1473]: error: maximum authentication attempts exceeded for northstar from 10.10.10.50 port 43146 ssh2 [preauth]
+Nov  8 09:31:34 web01 sshd[1473]: Disconnecting authenticating user northstar 10.10.10.50 port 43146: Too many authentication failures [preauth]
+Nov  8 09:31:34 web01 sshd[1473]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=10.10.10.50  user=northstar
+Nov  8 09:31:34 web01 sshd[1473]: PAM service(sshd) ignoring max retries; 6 > 3
+Nov  8 09:31:34 web01 sshd[1479]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=10.10.10.50  user=northstar
+Nov  8 09:31:34 web01 sshd[1481]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=10.10.10.50  user=northstar
+Nov  8 09:31:36 web01 sshd[1479]: Failed password for northstar from 10.10.10.50 port 45640 ssh2
+Nov  8 09:31:36 web01 sshd[1481]: Failed password for northstar from 10.10.10.50 port 45644 ssh2
+Nov  8 09:31:36 web01 sshd[1475]: Failed password for northstar from 10.10.10.50 port 57012 ssh2
+Nov  8 09:31:36 web01 sshd[1477]: Failed password for northstar from 10.10.10.50 port 57028 ssh2
+Nov  8 09:31:38 web01 sshd[1479]: Failed password for northstar from 10.10.10.50 port 45640 ssh2
+Nov  8 09:31:38 web01 sshd[1481]: Failed password for northstar from 10.10.10.50 port 45644 ssh2
+Nov  8 09:31:38 web01 sshd[1475]: Failed password for northstar from 10.10.10.50 port 57012 ssh2
+Nov  8 09:31:38 web01 sshd[1477]: Failed password for northstar from 10.10.10.50 port 57028 ssh2
+Nov  8 09:31:42 web01 sshd[1479]: Failed password for northstar from 10.10.10.50 port 45640 ssh2
+Nov  8 09:31:42 web01 sshd[1481]: Failed password for northstar from 10.10.10.50 port 45644 ssh2
+Nov  8 09:31:42 web01 sshd[1475]: Failed password for northstar from 10.10.10.50 port 57012 ssh2
+Nov  8 09:31:42 web01 sshd[1477]: Failed password for northstar from 10.10.10.50 port 57028 ssh2
+Nov  8 09:31:46 web01 sshd[1479]: Failed password for northstar from 10.10.10.50 port 45640 ssh2
+Nov  8 09:31:46 web01 sshd[1481]: Failed password for northstar from 10.10.10.50 port 45644 ssh2
+Nov  8 09:31:46 web01 sshd[1475]: Failed password for northstar from 10.10.10.50 port 57012 ssh2
+Nov  8 09:31:46 web01 sshd[1477]: Failed password for northstar from 10.10.10.50 port 57028 ssh2
+Nov  8 09:31:48 web01 sshd[1475]: Failed password for northstar from 10.10.10.50 port 57012 ssh2
+Nov  8 09:31:48 web01 sshd[1477]: Failed password for northstar from 10.10.10.50 port 57028 ssh2
+Nov  8 09:31:48 web01 sshd[1479]: Failed password for northstar from 10.10.10.50 port 45640 ssh2
+Nov  8 09:31:48 web01 sshd[1481]: Failed password for northstar from 10.10.10.50 port 45644 ssh2
+Nov  8 09:31:49 web01 sshd[1475]: error: maximum authentication attempts exceeded for northstar from 10.10.10.50 port 57012 ssh2 [preauth]
+Nov  8 09:31:49 web01 sshd[1475]: Disconnecting authenticating user northstar 10.10.10.50 port 57012: Too many authentication failures [preauth]
+Nov  8 09:31:49 web01 sshd[1475]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=10.10.10.50  user=northstar
+Nov  8 09:31:49 web01 sshd[1475]: PAM service(sshd) ignoring max retries; 6 > 3
+Nov  8 09:31:49 web01 sshd[1477]: error: maximum authentication attempts exceeded for northstar from 10.10.10.50 port 57028 ssh2 [preauth]
+Nov  8 09:31:49 web01 sshd[1477]: Disconnecting authenticating user northstar 10.10.10.50 port 57028: Too many authentication failures [preauth]
+Nov  8 09:31:49 web01 sshd[1477]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=10.10.10.50  user=northstar
+Nov  8 09:31:49 web01 sshd[1477]: PAM service(sshd) ignoring max retries; 6 > 3
+Nov  8 09:31:49 web01 sshd[1483]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=10.10.10.50  user=northstar
+Nov  8 09:31:49 web01 sshd[1485]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=10.10.10.50  user=northstar
+Nov  8 09:31:50 web01 sshd[1481]: Failed password for northstar from 10.10.10.50 port 45644 ssh2
+Nov  8 09:31:50 web01 sshd[1483]: Failed password for northstar from 10.10.10.50 port 44298 ssh2
+Nov  8 09:31:50 web01 sshd[1485]: Failed password for northstar from 10.10.10.50 port 44312 ssh2
+Nov  8 09:31:51 web01 sshd[1481]: error: maximum authentication attempts exceeded for northstar from 10.10.10.50 port 45644 ssh2 [preauth]
+Nov  8 09:31:51 web01 sshd[1481]: Disconnecting authenticating user northstar 10.10.10.50 port 45644: Too many authentication failures [preauth]
+Nov  8 09:31:51 web01 sshd[1481]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=10.10.10.50  user=northstar
+Nov  8 09:31:51 web01 sshd[1481]: PAM service(sshd) ignoring max retries; 6 > 3
+Nov  8 09:31:51 web01 sshd[1487]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=10.10.10.50  user=northstar
+Nov  8 09:31:51 web01 sshd[1479]: Failed password for northstar from 10.10.10.50 port 45640 ssh2
+Nov  8 09:31:53 web01 sshd[1487]: Failed password for northstar from 10.10.10.50 port 44320 ssh2
+Nov  8 09:31:53 web01 sshd[1479]: error: maximum authentication attempts exceeded for northstar from 10.10.10.50 port 45640 ssh2 [preauth]
+Nov  8 09:31:53 web01 sshd[1479]: Disconnecting authenticating user northstar 10.10.10.50 port 45640: Too many authentication failures [preauth]
+Nov  8 09:31:53 web01 sshd[1479]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=10.10.10.50  user=northstar
+Nov  8 09:31:53 web01 sshd[1479]: PAM service(sshd) ignoring max retries; 6 > 3
+Nov  8 09:31:53 web01 sshd[1483]: Failed password for northstar from 10.10.10.50 port 44298 ssh2
+Nov  8 09:31:53 web01 sshd[1485]: Failed password for northstar from 10.10.10.50 port 44312 ssh2
+Nov  8 09:31:53 web01 sshd[1489]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=10.10.10.50  user=northstar
+Nov  8 09:31:55 web01 sshd[1489]: Failed password for northstar from 10.10.10.50 port 60386 ssh2
+Nov  8 09:31:55 web01 sshd[1487]: Failed password for northstar from 10.10.10.50 port 44320 ssh2
+Nov  8 09:31:55 web01 sshd[1483]: Failed password for northstar from 10.10.10.50 port 44298 ssh2
+Nov  8 09:31:55 web01 sshd[1485]: Failed password for northstar from 10.10.10.50 port 44312 ssh2
+Nov  8 09:31:59 web01 sshd[1489]: Failed password for northstar from 10.10.10.50 port 60386 ssh2
+Nov  8 09:31:59 web01 sshd[1487]: Failed password for northstar from 10.10.10.50 port 44320 ssh2
+Nov  8 09:31:59 web01 sshd[1483]: Failed password for northstar from 10.10.10.50 port 44298 ssh2
+Nov  8 09:31:59 web01 sshd[1485]: Failed password for northstar from 10.10.10.50 port 44312 ssh2
+Nov  8 09:32:01 web01 sshd[1489]: Failed password for northstar from 10.10.10.50 port 60386 ssh2
+Nov  8 09:32:01 web01 sshd[1487]: Failed password for northstar from 10.10.10.50 port 44320 ssh2
+Nov  8 09:32:01 web01 sshd[1483]: Failed password for northstar from 10.10.10.50 port 44298 ssh2
+Nov  8 09:32:01 web01 sshd[1485]: Failed password for northstar from 10.10.10.50 port 44312 ssh2
+Nov  8 09:32:03 web01 sshd[1489]: Failed password for northstar from 10.10.10.50 port 60386 ssh2
+Nov  8 09:32:03 web01 sshd[1487]: Failed password for northstar from 10.10.10.50 port 44320 ssh2
+Nov  8 09:32:03 web01 sshd[1483]: Failed password for northstar from 10.10.10.50 port 44298 ssh2
+Nov  8 09:32:03 web01 sshd[1485]: Failed password for northstar from 10.10.10.50 port 44312 ssh2
+Nov  8 09:32:03 web01 sshd[1483]: error: maximum authentication attempts exceeded for northstar from 10.10.10.50 port 44298 ssh2 [preauth]
+Nov  8 09:32:03 web01 sshd[1483]: Disconnecting authenticating user northstar 10.10.10.50 port 44298: Too many authentication failures [preauth]
+Nov  8 09:32:03 web01 sshd[1483]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=10.10.10.50  user=northstar
+Nov  8 09:32:03 web01 sshd[1483]: PAM service(sshd) ignoring max retries; 6 > 3
+Nov  8 09:32:03 web01 sshd[1485]: error: maximum authentication attempts exceeded for northstar from 10.10.10.50 port 44312 ssh2 [preauth]
+Nov  8 09:32:03 web01 sshd[1485]: Disconnecting authenticating user northstar 10.10.10.50 port 44312: Too many authentication failures [preauth]
+Nov  8 09:32:03 web01 sshd[1485]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=10.10.10.50  user=northstar
+Nov  8 09:32:03 web01 sshd[1485]: PAM service(sshd) ignoring max retries; 6 > 3
+Nov  8 09:32:03 web01 sshd[1491]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=10.10.10.50  user=northstar
+Nov  8 09:32:03 web01 sshd[1493]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=10.10.10.50  user=northstar
+Nov  8 09:32:06 web01 sshd[1489]: Failed password for northstar from 10.10.10.50 port 60386 ssh2
+Nov  8 09:32:06 web01 sshd[1487]: Failed password for northstar from 10.10.10.50 port 44320 ssh2
+Nov  8 09:32:06 web01 sshd[1491]: Failed password for northstar from 10.10.10.50 port 49554 ssh2
+Nov  8 09:32:06 web01 sshd[1493]: Failed password for northstar from 10.10.10.50 port 49558 ssh2
+Nov  8 09:32:07 web01 sshd[1487]: error: maximum authentication attempts exceeded for northstar from 10.10.10.50 port 44320 ssh2 [preauth]
+Nov  8 09:32:07 web01 sshd[1487]: Disconnecting authenticating user northstar 10.10.10.50 port 44320: Too many authentication failures [preauth]
+Nov  8 09:32:07 web01 sshd[1487]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=10.10.10.50  user=northstar
+Nov  8 09:32:07 web01 sshd[1487]: PAM service(sshd) ignoring max retries; 6 > 3
+Nov  8 09:32:07 web01 sshd[1495]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=10.10.10.50  user=northstar
+Nov  8 09:32:09 web01 sshd[1489]: Failed password for northstar from 10.10.10.50 port 60386 ssh2
+Nov  8 09:32:09 web01 sshd[1495]: Failed password for northstar from 10.10.10.50 port 49562 ssh2
+Nov  8 09:32:09 web01 sshd[1491]: Failed password for northstar from 10.10.10.50 port 49554 ssh2
+Nov  8 09:32:09 web01 sshd[1493]: Failed password for northstar from 10.10.10.50 port 49558 ssh2
+Nov  8 09:32:09 web01 sshd[1489]: error: maximum authentication attempts exceeded for northstar from 10.10.10.50 port 60386 ssh2 [preauth]
+Nov  8 09:32:09 web01 sshd[1489]: Disconnecting authenticating user northstar 10.10.10.50 port 60386: Too many authentication failures [preauth]
+Nov  8 09:32:09 web01 sshd[1489]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=10.10.10.50  user=northstar
+Nov  8 09:32:09 web01 sshd[1489]: PAM service(sshd) ignoring max retries; 6 > 3
+Nov  8 09:32:09 web01 sshd[1497]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=10.10.10.50  user=northstar
+Nov  8 09:32:11 web01 sshd[1497]: Failed password for northstar from 10.10.10.50 port 49566 ssh2
+Nov  8 09:32:11 web01 sshd[1495]: Failed password for northstar from 10.10.10.50 port 49562 ssh2
+Nov  8 09:32:11 web01 sshd[1491]: Failed password for northstar from 10.10.10.50 port 49554 ssh2
+Nov  8 09:32:11 web01 sshd[1493]: Failed password for northstar from 10.10.10.50 port 49558 ssh2
+Nov  8 09:32:13 web01 sshd[1497]: Failed password for northstar from 10.10.10.50 port 49566 ssh2
+Nov  8 09:32:13 web01 sshd[1495]: Failed password for northstar from 10.10.10.50 port 49562 ssh2
+Nov  8 09:32:14 web01 sshd[1491]: Failed password for northstar from 10.10.10.50 port 49554 ssh2
+Nov  8 09:32:14 web01 sshd[1493]: Failed password for northstar from 10.10.10.50 port 49558 ssh2
+Nov  8 09:32:16 web01 sshd[1497]: Failed password for northstar from 10.10.10.50 port 49566 ssh2
+Nov  8 09:32:16 web01 sshd[1495]: Failed password for northstar from 10.10.10.50 port 49562 ssh2
+Nov  8 09:32:18 web01 sshd[1491]: Failed password for northstar from 10.10.10.50 port 49554 ssh2
+Nov  8 09:32:18 web01 sshd[1493]: Failed password for northstar from 10.10.10.50 port 49558 ssh2
+Nov  8 09:32:20 web01 sshd[1497]: Failed password for northstar from 10.10.10.50 port 49566 ssh2
+Nov  8 09:32:20 web01 sshd[1495]: Failed password for northstar from 10.10.10.50 port 49562 ssh2
+Nov  8 09:32:21 web01 sshd[1497]: Failed password for northstar from 10.10.10.50 port 49566 ssh2
+Nov  8 09:32:21 web01 sshd[1495]: Failed password for northstar from 10.10.10.50 port 49562 ssh2
+Nov  8 09:32:21 web01 sshd[1491]: Failed password for northstar from 10.10.10.50 port 49554 ssh2
+Nov  8 09:32:21 web01 sshd[1493]: Failed password for northstar from 10.10.10.50 port 49558 ssh2
+Nov  8 09:32:22 web01 sshd[1495]: error: maximum authentication attempts exceeded for northstar from 10.10.10.50 port 49562 ssh2 [preauth]
+Nov  8 09:32:22 web01 sshd[1495]: Disconnecting authenticating user northstar 10.10.10.50 port 49562: Too many authentication failures [preauth]
+Nov  8 09:32:22 web01 sshd[1495]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=10.10.10.50  user=northstar
+Nov  8 09:32:22 web01 sshd[1495]: PAM service(sshd) ignoring max retries; 6 > 3
+Nov  8 09:32:22 web01 sshd[1491]: error: maximum authentication attempts exceeded for northstar from 10.10.10.50 port 49554 ssh2 [preauth]
+Nov  8 09:32:22 web01 sshd[1491]: Disconnecting authenticating user northstar 10.10.10.50 port 49554: Too many authentication failures [preauth]
+Nov  8 09:32:22 web01 sshd[1491]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=10.10.10.50  user=northstar
+Nov  8 09:32:22 web01 sshd[1491]: PAM service(sshd) ignoring max retries; 6 > 3
+Nov  8 09:32:22 web01 sshd[1493]: error: maximum authentication attempts exceeded for northstar from 10.10.10.50 port 49558 ssh2 [preauth]
+Nov  8 09:32:22 web01 sshd[1493]: Disconnecting authenticating user northstar 10.10.10.50 port 49558: Too many authentication failures [preauth]
+Nov  8 09:32:22 web01 sshd[1493]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=10.10.10.50  user=northstar
+Nov  8 09:32:22 web01 sshd[1493]: PAM service(sshd) ignoring max retries; 6 > 3
+Nov  8 09:32:22 web01 sshd[1500]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=10.10.10.50  user=northstar
+Nov  8 09:32:22 web01 sshd[1502]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=10.10.10.50  user=northstar
+Nov  8 09:32:22 web01 sshd[1504]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=10.10.10.50  user=northstar
+Nov  8 09:32:23 web01 sshd[1497]: Failed password for northstar from 10.10.10.50 port 49566 ssh2
+Nov  8 09:32:23 web01 sshd[1500]: Failed password for northstar from 10.10.10.50 port 44746 ssh2
+Nov  8 09:32:24 web01 sshd[1502]: Failed password for northstar from 10.10.10.50 port 44758 ssh2
+Nov  8 09:32:24 web01 sshd[1504]: Failed password for northstar from 10.10.10.50 port 44774 ssh2
+Nov  8 09:32:24 web01 sshd[1497]: error: maximum authentication attempts exceeded for northstar from 10.10.10.50 port 49566 ssh2 [preauth]
+Nov  8 09:32:24 web01 sshd[1497]: Disconnecting authenticating user northstar 10.10.10.50 port 49566: Too many authentication failures [preauth]
+Nov  8 09:32:24 web01 sshd[1497]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=10.10.10.50  user=northstar
+Nov  8 09:32:24 web01 sshd[1497]: PAM service(sshd) ignoring max retries; 6 > 3
+Nov  8 09:32:24 web01 sshd[1506]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=10.10.10.50  user=northstar
+Nov  8 09:32:26 web01 sshd[1506]: Failed password for northstar from 10.10.10.50 port 44788 ssh2
+Nov  8 09:32:26 web01 sshd[1500]: Failed password for northstar from 10.10.10.50 port 44746 ssh2
+Nov  8 09:32:26 web01 sshd[1502]: Failed password for northstar from 10.10.10.50 port 44758 ssh2
+Nov  8 09:32:26 web01 sshd[1504]: Failed password for northstar from 10.10.10.50 port 44774 ssh2
+Nov  8 09:32:28 web01 sshd[1506]: Failed password for northstar from 10.10.10.50 port 44788 ssh2
+Nov  8 09:32:28 web01 sshd[1500]: Failed password for northstar from 10.10.10.50 port 44746 ssh2
+Nov  8 09:32:29 web01 sshd[1502]: Failed password for northstar from 10.10.10.50 port 44758 ssh2
+Nov  8 09:32:29 web01 sshd[1504]: Failed password for northstar from 10.10.10.50 port 44774 ssh2
+Nov  8 09:32:32 web01 sshd[1506]: Failed password for northstar from 10.10.10.50 port 44788 ssh2
+Nov  8 09:32:33 web01 sshd[1500]: Failed password for northstar from 10.10.10.50 port 44746 ssh2
+Nov  8 09:32:33 web01 sshd[1502]: Failed password for northstar from 10.10.10.50 port 44758 ssh2
+Nov  8 09:32:33 web01 sshd[1504]: Failed password for northstar from 10.10.10.50 port 44774 ssh2
+Nov  8 09:32:36 web01 sshd[1506]: Failed password for northstar from 10.10.10.50 port 44788 ssh2
+Nov  8 09:32:36 web01 sshd[1500]: Failed password for northstar from 10.10.10.50 port 44746 ssh2
+Nov  8 09:32:36 web01 sshd[1502]: Failed password for northstar from 10.10.10.50 port 44758 ssh2
+Nov  8 09:32:36 web01 sshd[1504]: Failed password for northstar from 10.10.10.50 port 44774 ssh2
+Nov  8 09:32:38 web01 sshd[1502]: Failed password for northstar from 10.10.10.50 port 44758 ssh2
+Nov  8 09:32:38 web01 sshd[1504]: Failed password for northstar from 10.10.10.50 port 44774 ssh2
+Nov  8 09:32:39 web01 sshd[1502]: error: maximum authentication attempts exceeded for northstar from 10.10.10.50 port 44758 ssh2 [preauth]
+Nov  8 09:32:39 web01 sshd[1502]: Disconnecting authenticating user northstar 10.10.10.50 port 44758: Too many authentication failures [preauth]
+Nov  8 09:32:39 web01 sshd[1502]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=10.10.10.50  user=northstar
+Nov  8 09:32:39 web01 sshd[1502]: PAM service(sshd) ignoring max retries; 6 > 3
+Nov  8 09:32:39 web01 sshd[1504]: error: maximum authentication attempts exceeded for northstar from 10.10.10.50 port 44774 ssh2 [preauth]
+Nov  8 09:32:39 web01 sshd[1504]: Disconnecting authenticating user northstar 10.10.10.50 port 44774: Too many authentication failures [preauth]
+Nov  8 09:32:39 web01 sshd[1504]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=10.10.10.50  user=northstar
+Nov  8 09:32:39 web01 sshd[1504]: PAM service(sshd) ignoring max retries; 6 > 3
+Nov  8 09:32:39 web01 sshd[1508]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=10.10.10.50  user=northstar
+Nov  8 09:32:39 web01 sshd[1510]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=10.10.10.50  user=northstar
+Nov  8 09:32:39 web01 sshd[1506]: Failed password for northstar from 10.10.10.50 port 44788 ssh2
+Nov  8 09:32:39 web01 sshd[1500]: Failed password for northstar from 10.10.10.50 port 44746 ssh2
+Nov  8 09:32:41 web01 sshd[1508]: Failed password for northstar from 10.10.10.50 port 51102 ssh2
+Nov  8 09:32:41 web01 sshd[1510]: Failed password for northstar from 10.10.10.50 port 51116 ssh2
+Nov  8 09:32:41 web01 sshd[1500]: error: maximum authentication attempts exceeded for northstar from 10.10.10.50 port 44746 ssh2 [preauth]
+Nov  8 09:32:41 web01 sshd[1500]: Disconnecting authenticating user northstar 10.10.10.50 port 44746: Too many authentication failures [preauth]
+Nov  8 09:32:41 web01 sshd[1500]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=10.10.10.50  user=northstar
+Nov  8 09:32:41 web01 sshd[1500]: PAM service(sshd) ignoring max retries; 6 > 3
+Nov  8 09:32:41 web01 sshd[1512]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=10.10.10.50  user=northstar
+Nov  8 09:32:42 web01 sshd[1506]: Failed password for northstar from 10.10.10.50 port 44788 ssh2
+Nov  8 09:32:42 web01 sshd[1512]: Failed password for northstar from 10.10.10.50 port 51124 ssh2
+Nov  8 09:32:43 web01 sshd[1508]: Failed password for northstar from 10.10.10.50 port 51102 ssh2
+Nov  8 09:32:43 web01 sshd[1510]: Failed password for northstar from 10.10.10.50 port 51116 ssh2
+Nov  8 09:32:43 web01 sshd[1506]: error: maximum authentication attempts exceeded for northstar from 10.10.10.50 port 44788 ssh2 [preauth]
+Nov  8 09:32:43 web01 sshd[1506]: Disconnecting authenticating user northstar 10.10.10.50 port 44788: Too many authentication failures [preauth]
+Nov  8 09:32:43 web01 sshd[1506]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=10.10.10.50  user=northstar
+Nov  8 09:32:43 web01 sshd[1506]: PAM service(sshd) ignoring max retries; 6 > 3
+Nov  8 09:32:43 web01 sshd[1514]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=10.10.10.50  user=northstar
+Nov  8 09:32:44 web01 sshd[1514]: Failed password for northstar from 10.10.10.50 port 34216 ssh2
+Nov  8 09:32:44 web01 sshd[1512]: Failed password for northstar from 10.10.10.50 port 51124 ssh2
+Nov  8 09:32:44 web01 sshd[1508]: Failed password for northstar from 10.10.10.50 port 51102 ssh2
+Nov  8 09:32:44 web01 sshd[1510]: Failed password for northstar from 10.10.10.50 port 51116 ssh2
+Nov  8 09:32:47 web01 sshd[1514]: Failed password for northstar from 10.10.10.50 port 34216 ssh2
+Nov  8 09:32:47 web01 sshd[1512]: Failed password for northstar from 10.10.10.50 port 51124 ssh2
+Nov  8 09:32:47 web01 sshd[1508]: Failed password for northstar from 10.10.10.50 port 51102 ssh2
+Nov  8 09:32:47 web01 sshd[1510]: Failed password for northstar from 10.10.10.50 port 51116 ssh2
+Nov  8 09:32:49 web01 sshd[1514]: Failed password for northstar from 10.10.10.50 port 34216 ssh2
+Nov  8 09:32:49 web01 sshd[1512]: Failed password for northstar from 10.10.10.50 port 51124 ssh2
+Nov  8 09:32:49 web01 sshd[1508]: Failed password for northstar from 10.10.10.50 port 51102 ssh2
+Nov  8 09:32:49 web01 sshd[1510]: Failed password for northstar from 10.10.10.50 port 51116 ssh2
+Nov  8 09:32:51 web01 sshd[1514]: Failed password for northstar from 10.10.10.50 port 34216 ssh2
+Nov  8 09:32:51 web01 sshd[1512]: Failed password for northstar from 10.10.10.50 port 51124 ssh2
+Nov  8 09:32:51 web01 sshd[1508]: Failed password for northstar from 10.10.10.50 port 51102 ssh2
+Nov  8 09:32:51 web01 sshd[1510]: Failed password for northstar from 10.10.10.50 port 51116 ssh2
+Nov  8 09:32:53 web01 sshd[1508]: error: maximum authentication attempts exceeded for northstar from 10.10.10.50 port 51102 ssh2 [preauth]
+Nov  8 09:32:53 web01 sshd[1508]: Disconnecting authenticating user northstar 10.10.10.50 port 51102: Too many authentication failures [preauth]
+Nov  8 09:32:53 web01 sshd[1508]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=10.10.10.50  user=northstar
+Nov  8 09:32:53 web01 sshd[1508]: PAM service(sshd) ignoring max retries; 6 > 3
+Nov  8 09:32:53 web01 sshd[1510]: error: maximum authentication attempts exceeded for northstar from 10.10.10.50 port 51116 ssh2 [preauth]
+Nov  8 09:32:53 web01 sshd[1510]: Disconnecting authenticating user northstar 10.10.10.50 port 51116: Too many authentication failures [preauth]
+Nov  8 09:32:53 web01 sshd[1510]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=10.10.10.50  user=northstar
+Nov  8 09:32:53 web01 sshd[1510]: PAM service(sshd) ignoring max retries; 6 > 3
+Nov  8 09:32:53 web01 sshd[1516]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=10.10.10.50  user=northstar
+Nov  8 09:32:53 web01 sshd[1518]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=10.10.10.50  user=northstar
+Nov  8 09:32:55 web01 sshd[1514]: Failed password for northstar from 10.10.10.50 port 34216 ssh2
+Nov  8 09:32:55 web01 sshd[1512]: Failed password for northstar from 10.10.10.50 port 51124 ssh2
+Nov  8 09:32:55 web01 sshd[1516]: Failed password for northstar from 10.10.10.50 port 52016 ssh2
+Nov  8 09:32:55 web01 sshd[1518]: Failed password for northstar from 10.10.10.50 port 52026 ssh2
+Nov  8 09:32:55 web01 sshd[1512]: error: maximum authentication attempts exceeded for northstar from 10.10.10.50 port 51124 ssh2 [preauth]
+Nov  8 09:32:55 web01 sshd[1512]: Disconnecting authenticating user northstar 10.10.10.50 port 51124: Too many authentication failures [preauth]
+Nov  8 09:32:55 web01 sshd[1512]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=10.10.10.50  user=northstar
+Nov  8 09:32:55 web01 sshd[1512]: PAM service(sshd) ignoring max retries; 6 > 3
+Nov  8 09:32:55 web01 sshd[1520]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=10.10.10.50  user=northstar
+Nov  8 09:32:57 web01 sshd[1514]: Failed password for northstar from 10.10.10.50 port 34216 ssh2
+Nov  8 09:32:57 web01 sshd[1520]: Failed password for northstar from 10.10.10.50 port 52036 ssh2
+Nov  8 09:32:57 web01 sshd[1516]: Failed password for northstar from 10.10.10.50 port 52016 ssh2
+Nov  8 09:32:57 web01 sshd[1518]: Failed password for northstar from 10.10.10.50 port 52026 ssh2
+Nov  8 09:32:57 web01 sshd[1514]: error: maximum authentication attempts exceeded for northstar from 10.10.10.50 port 34216 ssh2 [preauth]
+Nov  8 09:32:57 web01 sshd[1514]: Disconnecting authenticating user northstar 10.10.10.50 port 34216: Too many authentication failures [preauth]
+Nov  8 09:32:57 web01 sshd[1514]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=10.10.10.50  user=northstar
+Nov  8 09:32:57 web01 sshd[1514]: PAM service(sshd) ignoring max retries; 6 > 3
+Nov  8 09:32:57 web01 sshd[1522]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=10.10.10.50  user=northstar
+Nov  8 09:32:59 web01 sshd[1522]: Failed password for northstar from 10.10.10.50 port 52042 ssh2
+Nov  8 09:32:59 web01 sshd[1520]: Failed password for northstar from 10.10.10.50 port 52036 ssh2
+Nov  8 09:32:59 web01 sshd[1516]: Failed password for northstar from 10.10.10.50 port 52016 ssh2
+Nov  8 09:32:59 web01 sshd[1518]: Failed password for northstar from 10.10.10.50 port 52026 ssh2
+Nov  8 09:33:01 web01 sshd[1522]: Failed password for northstar from 10.10.10.50 port 52042 ssh2
+Nov  8 09:33:01 web01 sshd[1520]: Failed password for northstar from 10.10.10.50 port 52036 ssh2
+Nov  8 09:33:01 web01 sshd[1516]: Failed password for northstar from 10.10.10.50 port 52016 ssh2
+Nov  8 09:33:02 web01 sshd[1518]: Failed password for northstar from 10.10.10.50 port 52026 ssh2
+Nov  8 09:33:03 web01 sshd[1516]: Failed password for northstar from 10.10.10.50 port 52016 ssh2
+Nov  8 09:33:03 web01 sshd[1522]: Failed password for northstar from 10.10.10.50 port 52042 ssh2
+Nov  8 09:33:03 web01 sshd[1520]: Failed password for northstar from 10.10.10.50 port 52036 ssh2
+Nov  8 09:33:05 web01 sshd[1522]: Failed password for northstar from 10.10.10.50 port 52042 ssh2
+Nov  8 09:33:05 web01 sshd[1520]: Failed password for northstar from 10.10.10.50 port 52036 ssh2
+Nov  8 09:33:05 web01 sshd[1516]: Failed password for northstar from 10.10.10.50 port 52016 ssh2
+Nov  8 09:33:05 web01 sshd[1518]: Failed password for northstar from 10.10.10.50 port 52026 ssh2
+Nov  8 09:33:06 web01 sshd[1516]: error: maximum authentication attempts exceeded for northstar from 10.10.10.50 port 52016 ssh2 [preauth]
+Nov  8 09:33:06 web01 sshd[1516]: Disconnecting authenticating user northstar 10.10.10.50 port 52016: Too many authentication failures [preauth]
+Nov  8 09:33:06 web01 sshd[1516]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=10.10.10.50  user=northstar
+Nov  8 09:33:06 web01 sshd[1516]: PAM service(sshd) ignoring max retries; 6 > 3
+Nov  8 09:33:06 web01 sshd[1524]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=10.10.10.50  user=northstar
+Nov  8 09:33:08 web01 sshd[1522]: Failed password for northstar from 10.10.10.50 port 52042 ssh2
+Nov  8 09:33:08 web01 sshd[1520]: Failed password for northstar from 10.10.10.50 port 52036 ssh2
+Nov  8 09:33:08 web01 sshd[1518]: Failed password for northstar from 10.10.10.50 port 52026 ssh2
+Nov  8 09:33:08 web01 sshd[1524]: Failed password for northstar from 10.10.10.50 port 44558 ssh2
+Nov  8 09:33:10 web01 sshd[1520]: error: maximum authentication attempts exceeded for northstar from 10.10.10.50 port 52036 ssh2 [preauth]
+Nov  8 09:33:10 web01 sshd[1520]: Disconnecting authenticating user northstar 10.10.10.50 port 52036: Too many authentication failures [preauth]
+Nov  8 09:33:10 web01 sshd[1520]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=10.10.10.50  user=northstar
+Nov  8 09:33:10 web01 sshd[1520]: PAM service(sshd) ignoring max retries; 6 > 3
+Nov  8 09:33:10 web01 sshd[1526]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=10.10.10.50  user=northstar
+Nov  8 09:33:10 web01 sshd[1518]: error: maximum authentication attempts exceeded for northstar from 10.10.10.50 port 52026 ssh2 [preauth]
+Nov  8 09:33:10 web01 sshd[1518]: Disconnecting authenticating user northstar 10.10.10.50 port 52026: Too many authentication failures [preauth]
+Nov  8 09:33:10 web01 sshd[1518]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=10.10.10.50  user=northstar
+Nov  8 09:33:10 web01 sshd[1518]: PAM service(sshd) ignoring max retries; 6 > 3
+Nov  8 09:33:10 web01 sshd[1528]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=10.10.10.50  user=northstar
+Nov  8 09:33:12 web01 sshd[1522]: Failed password for northstar from 10.10.10.50 port 52042 ssh2
+Nov  8 09:33:12 web01 sshd[1526]: Failed password for northstar from 10.10.10.50 port 44562 ssh2
+Nov  8 09:33:12 web01 sshd[1524]: Failed password for northstar from 10.10.10.50 port 44558 ssh2
+Nov  8 09:33:12 web01 sshd[1528]: Failed password for northstar from 10.10.10.50 port 44570 ssh2
+Nov  8 09:33:12 web01 sshd[1522]: error: maximum authentication attempts exceeded for northstar from 10.10.10.50 port 52042 ssh2 [preauth]
+Nov  8 09:33:12 web01 sshd[1522]: Disconnecting authenticating user northstar 10.10.10.50 port 52042: Too many authentication failures [preauth]
+Nov  8 09:33:12 web01 sshd[1522]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=10.10.10.50  user=northstar
+Nov  8 09:33:12 web01 sshd[1522]: PAM service(sshd) ignoring max retries; 6 > 3
+Nov  8 09:33:12 web01 sshd[1530]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=10.10.10.50  user=northstar
+Nov  8 09:33:14 web01 sshd[1530]: Failed password for northstar from 10.10.10.50 port 47516 ssh2
+Nov  8 09:33:14 web01 sshd[1526]: Failed password for northstar from 10.10.10.50 port 44562 ssh2
+Nov  8 09:33:14 web01 sshd[1524]: Failed password for northstar from 10.10.10.50 port 44558 ssh2
+Nov  8 09:33:14 web01 sshd[1528]: Failed password for northstar from 10.10.10.50 port 44570 ssh2
+Nov  8 09:33:16 web01 sshd[1530]: Failed password for northstar from 10.10.10.50 port 47516 ssh2
+Nov  8 09:33:16 web01 sshd[1526]: Failed password for northstar from 10.10.10.50 port 44562 ssh2
+Nov  8 09:33:16 web01 sshd[1524]: Failed password for northstar from 10.10.10.50 port 44558 ssh2
+Nov  8 09:33:16 web01 sshd[1528]: Failed password for northstar from 10.10.10.50 port 44570 ssh2
+Nov  8 09:33:18 web01 sshd[1530]: Failed password for northstar from 10.10.10.50 port 47516 ssh2
+Nov  8 09:33:18 web01 sshd[1526]: Failed password for northstar from 10.10.10.50 port 44562 ssh2
+Nov  8 09:33:18 web01 sshd[1524]: Failed password for northstar from 10.10.10.50 port 44558 ssh2
+Nov  8 09:33:18 web01 sshd[1528]: Failed password for northstar from 10.10.10.50 port 44570 ssh2
+Nov  8 09:33:22 web01 sshd[1530]: Failed password for northstar from 10.10.10.50 port 47516 ssh2
+Nov  8 09:33:22 web01 sshd[1526]: Failed password for northstar from 10.10.10.50 port 44562 ssh2
+Nov  8 09:33:22 web01 sshd[1524]: Failed password for northstar from 10.10.10.50 port 44558 ssh2
+Nov  8 09:33:22 web01 sshd[1528]: Failed password for northstar from 10.10.10.50 port 44570 ssh2
+Nov  8 09:33:22 web01 sshd[1530]: Connection closed by authenticating user northstar 10.10.10.50 port 47516 [preauth]
+Nov  8 09:33:22 web01 sshd[1530]: PAM 3 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=10.10.10.50  user=northstar
+Nov  8 09:33:22 web01 sshd[1530]: PAM service(sshd) ignoring max retries; 4 > 3
+Nov  8 09:33:22 web01 sshd[1526]: Connection closed by authenticating user northstar 10.10.10.50 port 44562 [preauth]
+Nov  8 09:33:22 web01 sshd[1526]: PAM 4 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=10.10.10.50  user=northstar
+Nov  8 09:33:22 web01 sshd[1526]: PAM service(sshd) ignoring max retries; 5 > 3
+Nov  8 09:33:22 web01 sshd[1524]: error: maximum authentication attempts exceeded for northstar from 10.10.10.50 port 44558 ssh2 [preauth]
+Nov  8 09:33:22 web01 sshd[1524]: Disconnecting authenticating user northstar 10.10.10.50 port 44558: Too many authentication failures [preauth]
+Nov  8 09:33:22 web01 sshd[1524]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=10.10.10.50  user=northstar
+Nov  8 09:33:22 web01 sshd[1524]: PAM service(sshd) ignoring max retries; 6 > 3
+Nov  8 09:33:22 web01 sshd[1528]: Connection closed by authenticating user northstar 10.10.10.50 port 44570 [preauth]
+Nov  8 09:33:22 web01 sshd[1528]: PAM 4 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=10.10.10.50  user=northstar
+Nov  8 09:33:22 web01 sshd[1528]: PAM service(sshd) ignoring max retries; 5 > 3
+Nov  8 09:33:22 web01 sshd[1532]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=10.10.10.50  user=northstar
+Nov  8 09:33:24 web01 sshd[1532]: Failed password for northstar from 10.10.10.50 port 33162 ssh2
+Nov  8 09:33:25 web01 sshd[1532]: Connection closed by authenticating user northstar 10.10.10.50 port 33162 [preauth]
+Nov  8 09:36:09 web01 sudo: northstar : TTY=tty1 ; PWD=/home/northstar ; USER=root ; COMMAND=/usr/sbin/useradd -m -s /bin/bash labtarget
+Nov  8 09:36:09 web01 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by northstar(uid=1000)
+Nov  8 09:36:09 web01 useradd[1538]: new group: name=labtarget, GID=1002
+Nov  8 09:36:09 web01 useradd[1538]: new user: name=labtarget, UID=1002, GID=1002, home=/home/labtarget, shell=/bin/bash, from=/dev/pts/0
+Nov  8 09:36:09 web01 sudo: pam_unix(sudo:session): session closed for user root
+Nov  8 09:36:09 web01 sudo: northstar : TTY=tty1 ; PWD=/home/northstar ; USER=root ; COMMAND=/usr/sbin/chpasswd
+Nov  8 09:36:09 web01 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by northstar(uid=1000)
+Nov  8 09:36:09 web01 chpasswd[1549]: pam_unix(chpasswd:chauthtok): password changed for labtarget
+Nov  8 09:36:09 web01 sudo: pam_unix(sudo:session): session closed for user root
+Nov  8 09:36:48 web01 sshd[1552]: Accepted password for labtarget from 10.10.10.50 port 60266 ssh2
+Nov  8 09:36:48 web01 sshd[1552]: pam_unix(sshd:session): session opened for user labtarget(uid=1002) by (uid=0)
+Nov  8 09:36:48 web01 systemd-logind[935]: New session 4 of user labtarget.
+Nov  8 09:36:48 web01 systemd: pam_unix(systemd-user:session): session opened for user labtarget(uid=1002) by (uid=0)
+Nov  8 09:36:49 web01 sshd[1618]: Received disconnect from 10.10.10.50 port 60266:11: disconnected by user
+Nov  8 09:36:49 web01 sshd[1618]: Disconnected from user labtarget 10.10.10.50 port 60266
+Nov  8 09:36:49 web01 sshd[1552]: pam_unix(sshd:session): session closed for user labtarget
+Nov  8 09:36:49 web01 systemd-logind[935]: Session 4 logged out. Waiting for processes to exit.
+Nov  8 09:36:49 web01 systemd-logind[935]: Removed session 4.
+Nov  8 09:37:47 web01 sshd[1623]: Accepted password for northstar from 10.10.10.50 port 48306 ssh2
+Nov  8 09:37:47 web01 sshd[1623]: pam_unix(sshd:session): session opened for user northstar(uid=1000) by (uid=0)
+Nov  8 09:37:47 web01 systemd-logind[935]: New session 6 of user northstar.
+Nov  8 09:37:59 web01 sudo: northstar : TTY=pts/0 ; PWD=/home/northstar ; USER=root ; COMMAND=/usr/bin/wc -l
+Nov  8 09:37:59 web01 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by northstar(uid=1000)
